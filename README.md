@@ -17,8 +17,8 @@
 * 9:30  -- Start codecademy class: How to Deploy a Website. (purchase a domain name)
 
 #### 11/17/2022 (weeek 2)
-* 11:40 -- Researching: Deploying C# & react Applications
-
+* 11:40 -- Researching: Deploying C# & React Applications
+* 12:30 -- Watching youtube video: React Website Tutorial
 ## Technologies Used
 
 ## Description
