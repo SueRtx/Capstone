@@ -21,8 +21,8 @@
 * 12:30 -- Watching youtube video: React Website Tutorial
 * 1:30  -- Start React Application
 * 2:40  -- Working on website diagram
-* 3:20  -- Add files and folders 
-
+* 3:20  -- Add files and folders
+* 4:13  -- WIP 
 
 ## Technologies Used
 
