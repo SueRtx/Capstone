@@ -19,6 +19,8 @@
 #### 11/17/2022 (weeek 2)
 * 11:40 -- Researching: Deploying C# & React Applications
 * 12:30 -- Watching youtube video: React Website Tutorial
+* 1:30  -- Start React Application
+
 ## Technologies Used
 
 ## Description
