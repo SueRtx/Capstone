@@ -20,7 +20,7 @@
 * 11:40 -- Researching: Deploying C# & React Applications
 * 12:30 -- Watching youtube video: React Website Tutorial
 * 1:30  -- Start React Application
-
+* 2:40  -- Working on website diagram
 ## Technologies Used
 
 ## Description
