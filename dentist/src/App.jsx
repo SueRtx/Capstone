@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Home, About, Contact, Service } from './pages'
-import Sidebar from './components'
+import { Sidebar } from './components'
 
 
 

@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <section className="section-about">
+      <section >
       <About />
       </section>
       <Service />

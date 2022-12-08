@@ -1,9 +1,8 @@
-// import React, { useReducer } from 'react'
-import React from 'react'
+import React, { useReducer } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { sideBarMenu, socialIcons } from '../../data/data'
-// import { BsXLg, BsListNested } from 'react-icons/bs'
-// import { reducer } from '../../hooks/useReducer'
+import { BsXLg, BsListNested } from 'react-icons/bs'
+import { reducer } from '../../hooks/useReducer'
 import logoImage from "../../assets/images/logo.png";
 
 import './sidebar.scss'
@@ -20,7 +19,7 @@ const Sidebar = React.memo(() => {
     <>
       <BsListNested
         onClick={() => dispatch({ type: 'OPEN_NAVBAR' })}
-        className="menu-icon switch__color"
+        className="menu-icon iconColor"
       />
       <aside
         className={`${state.openCloseNav1 ? 'aside open-sidebar' : 'aside'} ${
@@ -30,9 +29,10 @@ const Sidebar = React.memo(() => {
         <div className="aside-wrapper">
           <BsXLg
             onClick={() => dispatch({ type: 'CLOSE_NAVBAR' })}
-            className="close-btn switch__color"
+            className="close-btn iconColor"
           />
 
+{/* logo  link */}
           <Link
             className="logo-section"
             style={{
@@ -45,11 +45,11 @@ const Sidebar = React.memo(() => {
           >
             <img src={logoImage} alt="Dentist office  logo" width='90%'/>
 
-            <span className="switch__color" style={{ fontSize: '0.9rem' }}>
+            <span className="iconColor" style={{ fontSize: '0.9rem' }}>
             (503)815-1777
             </span>
           </Link>
-        {/* Sidebar page links */}
+
           <ul className="side-link">
             {sideBarMenu.map((link, index) => {
               const { text, icon, url } = link
@@ -70,7 +70,6 @@ const Sidebar = React.memo(() => {
             })}
           </ul>
           
-      {/* social-icon links */}  
           <div className="social-icon">
             {socialIcons.map((icons, index) => {
               const { icon, url } = icons
@@ -86,5 +85,6 @@ const Sidebar = React.memo(() => {
     </>
   )
 })
+
 
 export default Sidebar

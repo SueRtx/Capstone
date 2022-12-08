@@ -34,11 +34,11 @@ const sideBarMenu = [
 // social media icons and url
 const socialIcons = [
   {
-    icon: <GrTwitter className="icon switch__color" />,
+    icon: <GrTwitter className="icon iconColor" />,
     url: 'https://twitter.com/tillamook',
   },
   {
-    icon: <GrInstagram className="icon switch__color" />,
+    icon: <GrInstagram className="icon iconColor" />,
     url: 'https://www.instagram.com/tillamook',
   },
 ]
