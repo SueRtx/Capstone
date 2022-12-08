@@ -1,0 +1,27 @@
+.section-1 {
+  min-height: 99vh;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+
+  margin-left: 20%;
+}
+
+.intro-page h1 {
+  font-size: 3.5em;
+  line-height: 2rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: var(--color-tem);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro-page h2 {
+  font-size: 1.7em;
+  line-height: 6rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: rgb(154, 146, 146);
+  text-align: center;
+}
+
