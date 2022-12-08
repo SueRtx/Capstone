@@ -1,10 +1,19 @@
-import './home.css'
+import React from 'react'
+// components
+import { Header } from '../../components'
+// pages
+import { Contact, About, Service } from '../../pages'
 
 const Home = () => {
   return (
-    <div>
-      Home
-    </div>
+    <>
+      <Header />
+      <section className="section-about">
+      <About />
+      </section>
+      <Service />
+      <Contact />
+    </>
   )
 }
 
