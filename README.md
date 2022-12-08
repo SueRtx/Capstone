@@ -6,8 +6,7 @@
 
 ## Research & Planning Log
 
-#### 11/5/2022 (weeek 1)
-
+#### 11/5/2022 (weeek 1) ~7hrs
 * 12:38 -- Researching how to make a website.
 * 1:58  -- Start codecademy class: Build Website for your Business.
 * 3:09  -- Still learnning how to build  a website. (review HTML)
@@ -16,13 +15,29 @@
 * 9:00  -- Researching how to deploy a website.
 * 9:30  -- Start codecademy class: How to Deploy a Website. (purchase a domain name)
 
-#### 11/17/2022 (weeek 2)
+#### 11/17/2022 (weeek 2) ~5hrs
 * 11:40 -- Researching: Deploying C# & React Applications
 * 12:30 -- Watching youtube video: React Website Tutorial
 * 1:30  -- Start React Application
 * 2:40  -- Working on website diagram
 * 3:20  -- Add files and folders
 * 4:13  -- WIP 
+
+#### 12/6/2022 ~5hrs
+* 10:15am - 02:00pm -- Research & working on code
+* 06:00pm - 07:45pm -- Reserach & working on code 
+
+#### 12/7/2022 ~3hrs
+* 02:30pm - 03:30pm -- Research CSS & working on code
+* 05:00pm - 06:00pm -- Reserach & working on code
+* 08:00pm - 09:00pm -- Reserach & working on code
+
+#### 12/7/2022 
+* 07:45am -         -- Reserach & working on code
+
+
+
+
 
 ## Technologies Used
 
