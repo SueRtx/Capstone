@@ -1,7 +1,7 @@
 import React, { useReducer } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { sideBarMenu, socialIcons } from '../../data/data'
-import { BsXLg, BsListNested } from 'react-icons/bs'
+
 import { reducer } from '../../hooks/useReducer'
 import logoImage from "../../assets/images/logo.png";
 
@@ -17,20 +17,14 @@ const Sidebar = React.memo(() => {
   const [state, dispatch] = useReducer(reducer, defaultOptions)
   return (
     <>
-      <BsListNested
-        onClick={() => dispatch({ type: 'OPEN_NAVBAR' })}
-        className="menu-icon iconColor"
-      />
+      
       <aside
         className={`${state.openCloseNav1 ? 'aside open-sidebar' : 'aside'} ${
           state.showAside1 ? 'aside show-asideBar' : 'aside'
         }`}
       >
         <div className="aside-wrapper">
-          <BsXLg
-            onClick={() => dispatch({ type: 'CLOSE_NAVBAR' })}
-            className="close-btn iconColor"
-          />
+         
 
 {/* logo  link */}
           <Link

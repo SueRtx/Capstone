@@ -1,0 +1,22 @@
+.section-about {
+  position: relative;
+}
+
+.section-about-description {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.section-about-description h1 {
+  display: block;
+  font-size: 3rem;
+ 
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.section-about-description {
+  font-size: 1.3rem;
+  text-align: center;
+}
+

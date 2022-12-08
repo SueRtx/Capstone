@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import tempImage from "../../assets/images/image1.png";
 import './header.scss'
 
@@ -11,7 +11,8 @@ const Header = () => {
         <div classname="container">
           <h1>Tillamook Family Dentistry</h1> 
           <h2>2503 Main Ave NTillamook, OR 97141</h2>
-          <img src={tempImage} alt="temp image" width='40%'/>
+          <img src={tempImage} alt="temp pic" width='40%' />
+          <img src={tempImage} alt="temp pic" width='40%' />
         </div>
 
         
