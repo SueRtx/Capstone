@@ -5,6 +5,7 @@ import { FiGrid } from 'react-icons/fi'
 import { TbDental } from 'react-icons/tb'
 import { BsPersonLinesFill } from 'react-icons/bs'
 import { RiContactsLine } from 'react-icons/ri'
+import { AiOutlineForm } from 'react-icons/ai'
 import {  GrTwitter, GrInstagram } from 'react-icons/gr'
 
 // sidebar menu list and icons
@@ -28,6 +29,11 @@ const sideBarMenu = [
     text: 'Contacts',
     icon: <RiContactsLine className="link-icon" />,
     url: '/contact',
+  },
+  {
+    text: 'New Patient',
+    icon: <AiOutlineForm className="link-icon" />,
+    url: '/patient',
   },
 ]
 

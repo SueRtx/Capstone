@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react'
 import { BsExclamationLg, BsPatchCheckFill } from 'react-icons/bs'
 import { RiSendPlane2Fill } from 'react-icons/ri'
-import { Blast, Map } from '../../components'
+import { Map } from '../../components'
 import Fade from 'react-reveal/Fade'
 
 

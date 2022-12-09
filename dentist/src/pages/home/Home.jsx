@@ -2,7 +2,7 @@ import React from 'react'
 // components
 import { Header } from '../../components'
 // pages
-import { Contact, About, Service } from '../../pages'
+import { Contact, About, Service, Patient } from '../../pages'
 
 const Home = () => {
   return (
@@ -12,7 +12,9 @@ const Home = () => {
       <About />
       </section>
       <Service />
+      <Patient />
       <Contact />
+
     </>
   )
 }
