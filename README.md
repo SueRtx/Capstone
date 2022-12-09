@@ -32,10 +32,13 @@
 * 05:00pm - 06:00pm -- Reserach & working on code
 * 08:00pm - 09:00pm -- Reserach & working on code
 
-#### 12/7/2022 ~11hrs
+#### 12/8/2022 ~11hrs
 * 07:45am - 10:00am -- Reserach & working on code
 * 12:30pm - 04:30pm -- Reserach & working on code
 * 06:30pm - 11:08pm -- Reserach & working on code
+
+#### 12/9/2022 ~11hrs
+* 08:27am -  -- Reserach & working on code
 
 
 
