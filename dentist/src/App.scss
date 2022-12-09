@@ -10,19 +10,20 @@
   font-family: 'Helvetica Neue', sans-serif;
 }
 :root {
-  --primary-bg: #1f1e1d; //background
-  --random-color: #2d2b2b;
-  --primary-color: #797878; //letter color
-  --color-tem: #4486bc; //page on light up
-  --second-primary-color: rgb(64, 108, 190);
-  --anchor-color: #adabab;
-  --sideBar-bg: #222222; //sidebar 
-  --box-shadow: 0 0 15px 0px #0808084c;
-  --light-bg: #ddd;
-  --typical-color: rgb(50, 45, 45); //icon
-  --theme-wrapper-bg: #232523;
-  --primary-text-color: #878787;
-  --hover-color: #fff;
+  --primary-bg: #ece4de;//background
+  --random-color: #d24613;
+  --primary-color: #101010;//letter color
+  --color-tem: #529ad5;//page on light up
+  --second-primary-color:#efeed3;
+  --primary-text-color: rgb(255, 255, 255);
+  --anchor-color: #cc6c06;
+  --sideBar-bg: #f08e58;//sidebar 
+  --box-shadow: 0 0 15px 0px #0808087a;
+  --light-bg: #504d4b;
+  --typical-color: #ef8145;//icon
+  --theme-wrapper-bg: #ffffff;
+  --primary-text-color: #3e5caf;
+  --hover-color: #1b1b1b;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
