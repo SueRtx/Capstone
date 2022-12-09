@@ -17,16 +17,14 @@ const Sidebar = React.memo(() => {
   const [state, dispatch] = useReducer(reducer, defaultOptions)
   return (
     <>
-      
       <aside
         className={`${state.openCloseNav1 ? 'aside open-sidebar' : 'aside'} ${
           state.showAside1 ? 'aside show-asideBar' : 'aside'
         }`}
       >
         <div className="aside-wrapper">
-         
-
-{/* logo  link */}
+        
+        {/* logo  link */}
           <Link
             className="logo-section"
             style={{
@@ -37,10 +35,11 @@ const Sidebar = React.memo(() => {
             }}
             to="/"
           >
+
             <img src={logoImage} alt="Dentist office  logo" width='90%'/>
 
             <span className="iconColor" style={{ fontSize: '0.9rem' }}>
-            (503)815-1777
+              <a>(503)815-1777</a>
             </span>
           </Link>
 
