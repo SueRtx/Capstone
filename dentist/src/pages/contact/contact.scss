@@ -140,14 +140,14 @@ button.contact-button:hover .message-deliver {
   background-color: rgba(0, 0, 0, 0.744);
   color: #fff;
   position: absolute;
-  top: 40px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
   padding: 20px;
   backdrop-filter: blur(100%);
   border-radius: 0 0 10px 0;
   z-index: 999;
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   span {
     font-size: 16px;
@@ -315,7 +315,7 @@ textarea:-webkit-autofill:focus {
       font-size: 1rem;
     }
     span {
-      font-size: 14px;
+      font-size: 10px;
     }
   }
 }

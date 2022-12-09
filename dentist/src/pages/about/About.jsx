@@ -12,7 +12,7 @@ const About = () => {
       <div classname="container">
       <h1>About Us</h1> 
       <br />
-      <h2> Meet Dr. Ahn</h2>
+      <h2> Meet Dr. Jin Ahn DMD</h2>
       <br />
       </div>
       </article>
