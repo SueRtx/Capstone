@@ -34,7 +34,8 @@
 
 #### 12/7/2022 
 * 07:45am - 10:00am -- Reserach & working on code
-* 12:30pm - 
+* 12:30pm - 04:30pm -- Reserach & working on code
+* 06:30pm -  -- Reserach & working on code
 
 
 
