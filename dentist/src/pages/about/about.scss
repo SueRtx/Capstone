@@ -2,21 +2,52 @@
   position: relative;
 }
 
-.section-about-description {
-  padding-top: 100px;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-.section-about-description h1 {
-  display: block;
-  font-size: 3rem;
- 
-  margin-bottom: 25px;
+.section-about-wrapper  h1 {
+  font-size: 3.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
 .section-about-description {
-  font-size: 1.3rem;
-  text-align: center;
+  padding-top: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  
 }
+
+.drAhn-Img {
+  margin-left: 70px;
+margin-top: 5%;
+  border: 4px solid  #e88967;
+}
+
+.section-about-description h2 {
+  display: block;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  margin-top: -19%;
+  margin-bottom: 15px;
+  margin-left: 30%;
+  
+}
+
+// .section-about-description {
+//   font-size: 1.5rem;
+// }
+
+.section-about-description p{
+  margin-left: 30%;
+  margin-top: -16%;
+  font-size: 1 rem;
+  line-height: 2rem;
+  width: 60%;
+  text-align: left;
+  font-weight: 600;
+  color: #d24613;
+  // font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
 
