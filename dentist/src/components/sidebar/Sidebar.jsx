@@ -39,7 +39,7 @@ const Sidebar = React.memo(() => {
             <img src={logoImage} alt="Dentist office  logo" width='90%'/>
 
             <span className="iconColor" style={{ fontSize: '0.9rem' }}>
-              <a>(503)815-1777</a>
+              <a>Dr. Jin Ahn DDS</a>
             </span>
           </Link>
 

@@ -60,6 +60,8 @@ h4,
 h5,
 h6 {
   color: rgb(85, 105, 178);
+  font-weight: bold;
+
 }
 ul {
   list-style: none;
@@ -67,6 +69,7 @@ ul {
 a {
   text-decoration: none;
   color: var(--primary-color);
+  font-weight: bold;
 }
 
 .name-big {

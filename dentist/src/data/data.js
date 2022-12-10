@@ -16,7 +16,7 @@ const sideBarMenu = [
     url: '/',
   },
   {
-    text: 'About',
+    text: 'About Us',
     icon: <BsPersonLinesFill className="link-icon" />,
     url: '/about',
   },
@@ -31,7 +31,7 @@ const sideBarMenu = [
     url: '/contact',
   },
   {
-    text: 'New Patient',
+    text: 'Patients',
     icon: <AiOutlineForm className="link-icon" />,
     url: '/patient',
   },
