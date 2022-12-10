@@ -18,7 +18,9 @@ const Header = () => {
           <h4><FiCalendar className="office-info"/> MON - THURS: 9:00 AM - 5:00 PM <FaTooth className="office-info"/> AVAILABLE FOR EMERGENCIES <BsTelephone className="office-info"/> 503-815-1777</h4>
           
           <img src={ headerImg } className="headerImg" alt="Dentist office  logo" width='60%'/>
-       
+
+          
+        
           <h3>Complete <br /> family dental <br /> care for <br /> healthy & beautiful smiles.</h3>
           
 
