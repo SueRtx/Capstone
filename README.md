@@ -39,9 +39,8 @@
 
 #### 12/9/2022 ~11hrs
 * 08:27am - 12:00pm -- Reserach & working on code
-* 02:18pm -         -- Design logo & edit images
-
-
+* 02:18pm - 06:00pm -- Design logo & edit images
+* 09:00pm -  -- Reserach & working on code
 
 
 

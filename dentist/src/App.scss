@@ -12,15 +12,16 @@
 :root {
   --primary-bg: #ece4de;//background
   --random-color: #d24613;
-  --primary-color: #101010;//letter color
-  --color-tem: #529ad5;//page on light up
+  --primary-color: #338ed8;//letter color
+  
+  --color-tem: #d24613;//page on light up
   --second-primary-color:#efeed3;
   --primary-text-color: rgb(255, 255, 255);
-  --anchor-color: #cc6c06;
-  --sideBar-bg: #f08e58;//sidebar 
+  --anchor-color: #d24613;
+  --sideBar-bg: #f3cdb8;//sidebar 
   --box-shadow: 0 0 15px 0px #0808087a;
   --light-bg: #504d4b;
-  --typical-color: #ef8145;//icon
+  --typical-color: #f4af8a;//icon
   --theme-wrapper-bg: #ffffff;
   --primary-text-color: #3e5caf;
   --hover-color: #1b1b1b;
@@ -59,7 +60,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: rgb(85, 105, 178);
+  color: #1581d9;
   font-weight: bold;
 
 }

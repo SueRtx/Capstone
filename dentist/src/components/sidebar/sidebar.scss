@@ -79,6 +79,8 @@
 ul.side-link li {
   line-height: 2.8;
   position: relative;
+  // background-color: #fabb99;
+  padding-left: 10px;
 }
 .nav__links {
   display: block;
@@ -101,7 +103,7 @@ ul.side-link li .link-icon {
 }
 .social-icon .icon {
   font-size: 15px;
-  margin-right: 15px;
+  margin-left: 25px;
   transition: 0.2s linear;
   color: var(--color-tem);
   &:hover {

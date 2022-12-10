@@ -43,6 +43,11 @@ const Sidebar = React.memo(() => {
             </span>
           </Link>
 
+          {/* <h4>MON - THURS</h4>
+          <h5>9:00 AM - 5:00 PM</h5>
+          <h4>Fri - Sat</h4>
+          <h5>Closed</h5> */}
+
           <ul className="side-link">
             {sideBarMenu.map((link, index) => {
               const { text, icon, url } = link
