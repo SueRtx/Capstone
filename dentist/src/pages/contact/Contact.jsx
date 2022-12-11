@@ -1,6 +1,8 @@
 import React, { useState, useRef } from 'react'
 import { BsExclamationLg, BsPatchCheckFill } from 'react-icons/bs'
 import { RiSendPlane2Fill } from 'react-icons/ri'
+import {BsFillTelephoneFill } from 'react-icons/bs'
+import {MdEmail } from 'react-icons/md'
 import { Map } from '../../components'
 import Fade from 'react-reveal/Fade'
 
@@ -135,13 +137,14 @@ const Contact = React.memo(() => {
     <>
 
 
-      {/* contact us page */}
+{/* contact us page */}
       <section className="contact-section">
     
         <form ref={form} className="contact-form" onSubmit={onSubmit}>
     
             <h1>Contact Us</h1>
-            
+            <h2><BsFillTelephoneFill /> 503-815-1777</h2>
+            <p><MdEmail /> Request an appointment or send a message below.</p>
           <Fade bottom>
             <div className="input-wrapper">
               <div className="form-input-group">

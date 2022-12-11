@@ -5,15 +5,21 @@
   position: relative;
   z-index: 1;
 }
-.contact__heading {
+
+.contact-section h1{
   display: block;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  .text-animate-hover {
-    &:hover {
-      color: var(--hover-color);
-    }
-  }
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  margin-top: -200px;
+  
+}
+.contact-section h2{
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #d24613;
 }
 
 .form-input-group {

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import headerImg from "../../assets/images/smile1.jpg";
-import { FiCalendar } from 'react-icons/fi'
-import { BsTelephone } from 'react-icons/bs'
+import { BsFillCalendarFill } from 'react-icons/bs'
+import { BsFillTelephoneFill } from 'react-icons/bs'
 import {FaTooth } from 'react-icons/fa'
-import {HiOutlineMail } from 'react-icons/hi'
+import {MdEmail } from 'react-icons/md'
 import './header.scss'
 
 
@@ -18,7 +18,7 @@ const Header = () => {
           </h2>
 
         {/* Office info */}
-          <h4><FiCalendar className="office-info"/> MON - THURS: 9:00 AM - 5:00 PM <FaTooth className="office-info"/> AVAILABLE FOR EMERGENCIES <BsTelephone className="office-info"/> 503-815-1777 <HiOutlineMail className="office-info"/> </h4>
+          <h4><BsFillCalendarFill className="office-info"/> MON - THURS: 9:00 AM - 5:00 PM <FaTooth className="office-info"/> AVAILABLE FOR EMERGENCIES <BsFillTelephoneFill className="office-info"/> 503-815-1777 <MdEmail className="office-info"/> </h4>
           
           <Link to="/contact" className="contact-button-home">
         <div>

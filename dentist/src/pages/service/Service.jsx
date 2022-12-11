@@ -45,7 +45,7 @@ const Service = () => {
       <br />
       <Fade bottom>
       <img src={ whiteImage } className="cleanImg" alt="temp" width='30%'/>
-        <h2> COSMATIC DENTISTRY</h2>
+        <h2> COSMETIC DENTISTRY</h2>
         <ul>
           <li>Veneers</li>
           <li>Metal-Free Crowns</li> 
