@@ -31,22 +31,16 @@ const Sidebar = React.memo(() => {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-              lineHeight: '4',
+              lineHeight: '3',
             }}
             to="/"
           >
 
             <img src={logoImage} alt="Dentist office  logo" width='90%'/>
-
-            <span className="iconColor" style={{ fontSize: '0.9rem' }}>
+            <span className="nameColor" style={{ fontSize: '0.9rem' }}>
               <a>Dr. Jin Ahn DMD</a>
             </span>
           </Link>
-
-          {/* <h4>MON - THURS</h4>
-          <h5>9:00 AM - 5:00 PM</h5>
-          <h4>Fri - Sat</h4>
-          <h5>Closed</h5> */}
 
           <ul className="side-link">
             {sideBarMenu.map((link, index) => {

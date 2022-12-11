@@ -35,12 +35,14 @@
     color: #fff;
   }
 }
-.sidebar__logo {
-  width: 60px;
-  height: auto;
-  fill: #cc6c06;
-}
+
+// .sidebar__logo {
+//   width: 60px;
+//   height: auto;
+//   fill: #cc6c06;
+// }
 // the classname that wraps all the element in the sidebar
+
 .aside-wrapper {
   width: 80%;
   min-height: 90vh;
@@ -93,7 +95,7 @@ ul.side-link li {
 ul.side-link li .link-icon {
   font-size: 15px;
   margin-right: 15px;
-  color: var(--color-tem);
+//  color: var(--color-tem);
 }
 
 // social media icons
@@ -103,11 +105,16 @@ ul.side-link li .link-icon {
 }
 .social-icon .icon {
   font-size: 15px;
-  margin-left: 25px;
+  margin-left: 17px;
   transition: 0.2s linear;
-  color: var(--color-tem);
-  &:hover {
+  
+  // color: var(--color-tem);
+  // &:hover {
+  //   color: var(--anchor-color);
+
     color: var(--anchor-color);
+    &:hover {
+      color: var(--color-tem);
   }
 }
 
