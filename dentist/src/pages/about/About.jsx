@@ -13,7 +13,7 @@ const About = () => {
     <h1>About Us</h1> 
       <article className="section-about-description">
   
-        <Fade>  
+        <Fade bottom>  
           <img src={drImage } className="drAhn-Img" alt="temp" width='20%' />
           <h2>Meet Dr. Jin Ahn DMD</h2>
           <p > Dr. Ahn attended the University of Dentistry in Illinois, where he graduated with honors. Returning to St Louis, he completed a residency at Saint Louis Hospital, where he received advanced training in emergency general dentistry. Since his residency, he has been practicing in the Oregon Coast area since 1994.

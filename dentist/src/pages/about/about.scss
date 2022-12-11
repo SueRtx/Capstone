@@ -2,18 +2,18 @@
   position: relative;
 }
 
-.section-about-wrapper  h1 {
-  font-size: 3.5rem;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
 .section-about-description {
   padding-top: 0px;
   display: grid;
   grid-template-columns: 1fr;
   
+}
+
+.section-about-wrapper  h1 {
+  font-size: 3.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .drAhn-Img {

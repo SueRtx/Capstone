@@ -3,19 +3,58 @@
 }
 
 .section-service-description {
-  padding-top: 100px;
+  padding-top: 50px;
   display: grid;
   grid-template-columns: 1fr;
 }
+// Services
 .section-service-description h1 {
   display: block;
-  font-size: 3rem;
- 
-  margin-bottom: 25px;
+  font-size: 3.5rem;
+  margin-bottom: 15px;
   text-align: center;
+}
+// services info
+.section-service-description h3 {
+  display: block;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-bottom: 15px;
+ color: #d24613;
+ width: 90%;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ margin-left: 5%;
+}
+// service descriptions
+.cleanImg  {
+  margin-left: 70px;
+  margin-top: 5%;
+  border: 4px solid  #e88967;
+}
+.section-service-description h2 {
+  display: block;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  margin-top: -29%;
+  margin-bottom: 15px;
+  margin-left: 45%;
 }
 
-.section-service-description {
-  font-size: 1.3rem;
-  text-align: center;
+.section-service-description ul{
+  margin-left: 45%;
+  margin-top: -25%;
+  font-size: 1 rem;
+  line-height: 2rem;
+  width: 60%;
+  text-align: left;
+  font-weight: 600;
+  color: #d24613;
 }
+
+
+.service-info{
+margin-left: 30%;
+  border: 2px solid red;
+}
+
+
