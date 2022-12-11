@@ -1,5 +1,6 @@
 .section-patient {
   position: relative;
+
 }
 
 .section-patient-description {
@@ -13,6 +14,29 @@
  
   margin-bottom: 25px;
   text-align: center;
+}
+
+.section-patient-description h2 {
+  display: block;
+  font-size: 1.5rem;
+  // text-decoration: underline;
+  // margin-top: -29%;
+  margin-bottom: 15px;
+  // margin-left: 45%;
+}
+
+.section-patient-description h3 {
+  display: block;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-bottom: 15px;
+ color: #d24613;
+ width: 80%;
+ background-color: #eec4b4;
+ padding: 30px;
+//  font-family: Georgia, 'Times New Roman', Times, serif;
+margin-left: 10%;
+ text-align: left;
 }
 
 .section-patient-description {

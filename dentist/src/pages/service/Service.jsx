@@ -1,5 +1,5 @@
 import React from 'react'
-import Fade from 'react-reveal/Fade'
+import Slide from 'react-reveal/Slide'
 
 import cleanImage from "../../assets/images/clean.jpg";
 import chairImage from "../../assets/images/chair.jpg";
@@ -13,11 +13,11 @@ const Service = () => {
 
     <article className="section-service-description">
       <h1>Services</h1> 
-      <Fade bottom>
+      <Slide bottom>
         <h3>Regardless of age, every patient should attend a dental checkup and cleaning once every six months. Dr. Ahn will have the opportunity to stop cavities, gum disease, and other oral health problems in their tracks, saving you from future headaches and toothaches! Our hygiene can also give your teeth a professional cleaning to remove cavity-causing plaque and  provide tips on maintaining pearly white teeth at home.</h3>
-      </Fade>
+      </Slide>
       <br />
-      <Fade bottom>
+      <Slide bottom>
       <img src={ cleanImage } className="cleanImg" alt="temp" width='30%'/>
         <h2> PREVENTIVE DENTISTRY</h2>
         <ul>
@@ -27,9 +27,9 @@ const Service = () => {
           <li>Nightguards for Bruxism</li>  
           <li>Fluoride Treatments</li>
           </ul>
-      </Fade>
+      </Slide>
       <br />
-      <Fade bottom>
+      <Slide bottom>
       <img src={ chairImage } className="cleanImg" alt="temp" width='30%'/>
         <h2> GENERAL DENTISTRY</h2>
         <ul>
@@ -41,9 +41,9 @@ const Service = () => {
           <li>Partials / Dentures</li>
           <li>Extractions</li>
         </ul>
-      </Fade>
+      </Slide>
       <br />
-      <Fade bottom>
+      <Slide bottom>
       <img src={ whiteImage } className="cleanImg" alt="temp" width='30%'/>
         <h2> COSMETIC DENTISTRY</h2>
         <ul>
@@ -54,7 +54,7 @@ const Service = () => {
           <li>Teeth Whitening</li>
           <li>Gum Recontouring</li>
         </ul>
-      </Fade>
+      </Slide>
       
     </article>
     

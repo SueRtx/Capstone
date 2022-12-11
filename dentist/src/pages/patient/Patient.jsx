@@ -8,23 +8,26 @@ const Patient = () => {
   return (
     <div className="section-patient-wrapper section__padding">
     <article className="section-patient-description">
-    <h1>New Patients</h1> 
-    <br />
-    <Fade bottom>
-              <p>
-               Taking New Patients
-              </p>
+      <h1>New Patients</h1> 
+    
+      <br />
+
+      <Fade bottom>
+              <h2>
+                New patients are always welcome! Please call us at (503) 815-1777.
+              </h2>
             </Fade>
-            <Fade bottom>
-              <p>
-                Accept insurance
-              </p>
-            </Fade>
-            <Fade bottom>
-              <p>
-             Make Appointment
-              </p>
-            </Fade>
+      <Fade bottom>
+      
+        <h3>Regardless of age, every patient should attend a dental checkup and cleaning once every six months. Dr. Ahn will have the opportunity to stop cavities, gum disease, and other oral health problems in their tracks, saving you from future headaches and toothaches! Our hygiene can also give your teeth a professional cleaning to remove cavity-causing plaque and  provide tips on maintaining pearly white teeth at home.</h3>
+          
+      </Fade>
+         
+        <Fade bottom>
+          <p>
+          Please fill out new patient forms below and bring it to your appointment.
+          </p>
+        </Fade>
             <Fade left>
               <a
                 style={{ marginTop: '2rem' }}
