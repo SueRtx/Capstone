@@ -47,9 +47,10 @@
 * 03:30pm - 07:45pm -- Reserach & working on code
 * 09:00pm - 10:25pm -- Reserach & working on code
 
-#### 12/10/2022 ~
+#### 12/11/2022 ~
 * 11:15am - 12:10pm -- Reserach email.js
 * 12:10pm - 03:00pm -- Reserach & working on code
+* 04:00pm -  -- Reserach & working on code
 
 ## Technologies Used
 
