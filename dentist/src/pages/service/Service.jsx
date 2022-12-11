@@ -12,10 +12,10 @@ const Service = () => {
     <div className="section-service-wrapper section__padding">
 
     <article className="section-service-description">
-    
       <h1>Services</h1> 
-      <h3>Regardless of age, every patient should attend a dental checkup and cleaning once every six months. Dr. Ahn will have the opportunity to stop cavities, gum disease, and other oral health problems in their tracks, saving you from future headaches and toothaches! Our hygiene can also give your teeth a professional cleaning to remove cavity-causing plaque and  provide tips on maintaining pearly white teeth at home.</h3>
-      
+      <Fade bottom>
+        <h3>Regardless of age, every patient should attend a dental checkup and cleaning once every six months. Dr. Ahn will have the opportunity to stop cavities, gum disease, and other oral health problems in their tracks, saving you from future headaches and toothaches! Our hygiene can also give your teeth a professional cleaning to remove cavity-causing plaque and  provide tips on maintaining pearly white teeth at home.</h3>
+      </Fade>
       <br />
       <Fade bottom>
       <img src={ cleanImage } className="cleanImg" alt="temp" width='30%'/>
