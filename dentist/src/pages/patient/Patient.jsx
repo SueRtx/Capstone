@@ -24,16 +24,17 @@ const Patient = () => {
       </Fade>
          
         <Fade bottom>
-          <p>
+          <h2>
           Please fill out new patient forms below and bring it to your appointment.
-          </p>
+          </h2>
         </Fade>
             <Fade left>
+           
               <a
                 style={{ marginTop: '2rem' }}
                 href={forms}
                 download
-                className="contact-button submit-button"
+                className=" submit-button"
               >
                 <div>
                   <span className="bg switch__bg"></span>

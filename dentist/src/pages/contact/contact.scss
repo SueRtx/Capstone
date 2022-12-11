@@ -120,6 +120,7 @@ textarea {
   transition: all 0.1s linear;
   display: none;
 }
+
 button.contact-button:hover .message-deliver {
   animation: sent 0.5s linear infinite alternate-reverse;
 }

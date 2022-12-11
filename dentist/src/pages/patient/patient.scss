@@ -1,12 +1,18 @@
 .section-patient {
   position: relative;
-
 }
 
 .section-patient-description {
-  padding-top: 100px;
+  padding-top: 0px;
   display: grid;
   grid-template-columns: 1fr;
+  
+}
+.section-patient-wrapper  h1 {
+  font-size: 3.5rem;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 .section-patient-description h1 {
   display: block;
@@ -44,16 +50,50 @@ margin-left: 10%;
   text-align: center;
 }
 
-.contact-button {
+.submit-button {
   display: block;
   width: 100%;
   height: 50px;
   max-width: 200px;
   line-height: 50px;
-  position: relative;
+ 
   margin: 50px 0;
   animation: fadeInAnimation 1s 1.8s backwards;
   white-space: nowrap;
-  background-color: azure;
+  background-color: rgb(251, 238, 217);
+border: 2px solid#ef8a65;
+border-radius: 0 15px 0 15px;
+margin-left: 40%;
+margin-top: -5px;
 }
 
+
+
+.submit-button {
+  margin-top: 5px;
+  background-color: azure;
+  border-radius: 0 15px 0 15px;
+  
+ 
+  color: #f0994d;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.submit-button:hover {
+  color: #e20f1d;
+}
+.scroll__wrapper {
+  display: flex;
+  place-items: center;
+  transform: translate(80%, 80%);
+  position: relative;
+  color: var(--color-tem);
+  &::after {
+    content: 'scroll down';
+    position: absolute;
+    top: 0;
+    left: -8px;
+  }
+  display: none;
+}
