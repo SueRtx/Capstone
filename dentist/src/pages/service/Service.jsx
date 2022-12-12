@@ -10,27 +10,34 @@ import './service.scss'
 const Service = () => {
   return (
     <div className="section-service-wrapper section__padding">
-
+<h1>Services</h1> 
     <article className="section-service-description">
-      <h1>Services</h1> 
-      <Slide bottom>
+      {/* <h1>Services</h1>  */}
+     
         <h3>Our experienced and friendly dental staff is here to take care of your smile and needs.</h3>
-      </Slide>
-      <br />
+    
+   
       <Slide bottom>
-      <img src={ cleanImage } className="cleanImg" alt="temp" width='30%'/>
+      <div>
+      {/* <img src={ cleanImage } className="cleanImg" alt="temp" width='30%'/> */}
         <h2> PREVENTIVE DENTISTRY</h2>
         <ul>
           <li>Dental Checkups</li>
           <li>Dental Clennings</li> 
           <li>Scaling</li>
-          <li>Nightguards for Bruxism</li>  
+          <li>Sealent</li>  
           <li>Fluoride Treatments</li>
+          <li>Nightguards for Bruxism</li>  
           </ul>
+          <img src={ cleanImage } className="cleanImg" alt="temp" width='30%'/> 
+          </div>
       </Slide>
-      <br />
-      <Slide bottom>
-      <img src={ chairImage } className="cleanImg" alt="temp" width='30%'/>
+   
+
+     
+      <Slide bottom >
+      {/* <img src={ chairImage } className="chairImg" alt="temp" width='30%'/> */}
+      <div>
         <h2> GENERAL DENTISTRY</h2>
         <ul>
           <li>Tooth-Colored Fillings</li>
@@ -39,12 +46,16 @@ const Service = () => {
           <li>Dental Bridges</li>  
           <li>Extractions</li>
           <li>Partials / Dentures</li>
-          <li>Extractions</li>
         </ul>
+        <img src={ chairImage } className="chairImg" alt="temp" width='30%'/>
+        </div>
       </Slide>
-      <br />
+ 
+   
+      
       <Slide bottom>
-      <img src={ whiteImage } className="cleanImg" alt="temp" width='30%'/>
+      <div>
+      {/* <img src={ whiteImage } className="chairImg" alt="temp" width='30%'/> */}
         <h2> COSMETIC DENTISTRY</h2>
         <ul>
           <li>Veneers</li>
@@ -54,8 +65,10 @@ const Service = () => {
           <li>Teeth Whitening</li>
           <li>Gum Recontouring</li>
         </ul>
+        <img src={ whiteImage } className="whiteImg" alt="temp" width='30%'/>
+        </div>
       </Slide>
-      
+     
     </article>
     
   </div>

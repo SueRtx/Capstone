@@ -1,19 +1,32 @@
 .section-service {
   position: relative;
 }
+.section-service-description div {
+  background-color: rgb(176, 227, 218);
+  border: 2px;
+}
 
+
+.section-service-wrapper  h1 {
+  font-size: 3.5rem;
+  margin-top: 55px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
 .section-service-description {
   padding-top: 50px;
   display: grid;
   grid-template-columns: 1fr;
+  background-color: var(--sideBar-bg);
 }
 
-.section-service-description h1 {
-  display: block;
-  font-size: 3.5rem;
-  margin-bottom: 15px;
-  text-align: center;
-}
+// .section-service-description h1 {
+//   display: block;
+//   font-size: 3.5rem;
+//   margin-bottom: 15px;
+//   text-align: center;
+// }
 
 .section-service-description h3 {
   display: block;
@@ -24,27 +37,38 @@
   width: 90%;
 //  font-family: Georgia, 'Times New Roman', Times, serif;
   margin-left: 5%;
-  background-color: var(--typical-color);
+  // background-color: var(--typical-color);
   padding: 15px;
 }
 // service descriptions
 .cleanImg  {
-  margin-left: 70px;
-  margin-top: 5%;
+  margin-left: 60%;
+  margin-top: -26%;
+  border: 4px solid  var(--typical-color);
+}
+
+.chairImg {
+  margin-left: 60%;
+  margin-top: -26%;
+  border: 4px solid  var(--typical-color);
+}
+.whiteImg {
+  margin-left: 60%;
+  margin-top: -26%;
   border: 4px solid  var(--typical-color);
 }
 .section-service-description h2 {
   display: block;
   font-size: 1.5rem;
   text-decoration: underline;
-  margin-top: -29%;
+   margin-top: 5%;
   margin-bottom: 15px;
-  margin-left: 45%;
+  margin-left: 10%;
 }
 
 .section-service-description ul{
-  margin-left: 45%;
-  margin-top: -25%;
+   margin-left: 15%;
+   margin-top: 3%;
   font-size: 1 rem;
   line-height: 2rem;
   width: 60%;
@@ -52,6 +76,7 @@
   font-weight: 600;
   color: var(--color-tem)
 }
+
 
 
 
