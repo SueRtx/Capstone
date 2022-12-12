@@ -22,7 +22,7 @@ const About = () => {
         <Fade bottom >
           <img src={smileImage } className="smile-Img" alt="temp" width='20%'  />
           <h2>Our Philosophy</h2>
-          <p className="sec-2"> Tillamook Family Dentistry is here to provide you with a dental experience marked by gentle, compassionate and economic care. We provide one on<br /> one approach to our patients. We work with very caring and professional specialists to provide you the best dental experience as possible to our patients. 
+          <p className="sec-2"> Tillamook Family Dentistry is here to provide you with a dental experience marked by gentle, compassionate and economic care.<br /> We provide one on one approach to our patients. We work with very caring and professional specialists to provide you the best dental experience as possible to our patients. 
           </p>
         </Fade>
       </article>

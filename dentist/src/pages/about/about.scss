@@ -1,12 +1,13 @@
 .section-about {
   position: relative;
+  
 }
 
 .section-about-description {
-  padding-top: 0px;
+  padding: 50px;
   display: grid;
   grid-template-columns: 1fr;
-  
+  background-color: var(--sideBar-bg);
 }
 
 .section-about-wrapper  h1 {
@@ -14,6 +15,7 @@
   margin-top: 15px;
   margin-bottom: 15px;
   text-align: center;
+  
 }
 
 .drAhn-Img {
@@ -33,7 +35,7 @@
   display: block;
   font-size: 1.5rem;
   text-decoration: underline;
-  margin-top: -19%;
+  margin-top: -20%;
   margin-bottom: 15px;
   margin-left: 30%;
   
@@ -45,7 +47,7 @@
 
 .section-about-description p{
   margin-left: 30%;
-  margin-top: -15%;
+  margin-top: -16%;
   font-size: 1 rem;
   line-height: 2rem;
   width: 60%;

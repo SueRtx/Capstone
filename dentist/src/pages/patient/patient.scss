@@ -6,29 +6,37 @@
   padding-top: 0px;
   display: grid;
   grid-template-columns: 1fr;
+  background-image: url("../../assets/images/bkg1.jpg");
+background-size: cover;
+
   
 }
 .section-patient-wrapper  h1 {
   font-size: 3.5rem;
-  margin-top: 25px;
+  margin-top: 55px;
   margin-bottom: 15px;
   text-align: center;
+  text-shadow: 2px 2px 2px black;
 }
-.section-patient-description h1 {
-  display: block;
-  font-size: 3rem;
+// .section-patient-description h1 {
+//   display: block;
+//   font-size: 3rem;
  
-  margin-bottom: 25px;
-  text-align: center;
-}
+//   margin-bottom: 25px;
+//   text-align: center;
+// }
 
 .section-patient-description h2 {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  
   // text-decoration: underline;
   // margin-top: -29%;
   margin-bottom: 15px;
-  // margin-left: 45%;
+  //  margin-left: 20%;
+  text-align: left;
+  margin-left: 30%;
 }
 
 .section-patient-description h3 {
@@ -36,18 +44,19 @@
   font-size: 1.3rem;
   line-height: 2rem;
   margin-bottom: 15px;
- color: #d24613;
- width: 80%;
- background-color: #eec4b4;
+  color: var(--color-tem);
+ width: 65%;
+//  background-color: #eec4b4;
  padding: 30px;
 //  font-family: Georgia, 'Times New Roman', Times, serif;
-margin-left: 10%;
+margin-left: 27%;
  text-align: left;
 }
 
 .section-patient-description {
   font-size: 1.3rem;
   text-align: center;
+  
 }
 
 .submit-button {

@@ -1,33 +1,31 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
 import forms from '../../assets/images/forms.pdf'
+import drImage from "../../assets/images/bkg1.jpg";
 import './patient.scss'
 
 
 const Patient = () => {
   return (
     <div className="section-patient-wrapper section__padding">
+       <h1>Patients</h1> 
     <article className="section-patient-description">
-      <h1>New Patients</h1> 
+      {/* <h1>New Patients</h1>  */}
     
       <br />
 
       <Fade bottom>
-              <h2>
-                New patients are always welcome! Please call us at (503) 815-1777.
-              </h2>
-            </Fade>
+        <h2>
+          New patients are always welcome! <br />Please call us at (503) 815-1777.
+        </h2>
+      </Fade>
       <Fade bottom>
       
         <h3>Regardless of age, every patient should attend a dental checkup and cleaning once every six months. Dr. Ahn will have the opportunity to stop cavities, gum disease, and other oral health problems in their tracks, saving you from future headaches and toothaches! Our hygiene can also give your teeth a professional cleaning to remove cavity-causing plaque and  provide tips on maintaining pearly white teeth at home.</h3>
           
       </Fade>
          
-        <Fade bottom>
-          <h2>
-          Please fill out new patient forms below and bring it to your appointment.
-          </h2>
-        </Fade>
+        
             <Fade left>
            
               <a
