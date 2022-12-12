@@ -14,7 +14,7 @@ const Service = () => {
     <article className="section-service-description">
       <h1>Services</h1> 
       <Slide bottom>
-        <h3>Regardless of age, every patient should attend a dental checkup and cleaning once every six months. Dr. Ahn will have the opportunity to stop cavities, gum disease, and other oral health problems in their tracks, saving you from future headaches and toothaches! Our hygiene can also give your teeth a professional cleaning to remove cavity-causing plaque and  provide tips on maintaining pearly white teeth at home.</h3>
+        <h3>Our experienced and friendly dental staff is here to take care of your smile and needs.</h3>
       </Slide>
       <br />
       <Slide bottom>

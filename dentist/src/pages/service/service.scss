@@ -18,13 +18,15 @@
 // services info
 .section-service-description h3 {
   display: block;
-  font-size: 1.3rem;
+  font-size: 1.45rem;
   line-height: 2rem;
   margin-bottom: 15px;
- color: #d24613;
+ color: var(--color-tem);
  width: 90%;
- font-family: Georgia, 'Times New Roman', Times, serif;
+//  font-family: Georgia, 'Times New Roman', Times, serif;
  margin-left: 5%;
+ background-color: var(--typical-color);
+ padding: 15px;
 }
 // service descriptions
 .cleanImg  {
