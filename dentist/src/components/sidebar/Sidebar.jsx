@@ -31,7 +31,7 @@ const Sidebar = React.memo(() => {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-              lineHeight: '3',
+              lineHeight: '2.5',
             }}
             to="/"
           >
