@@ -29,7 +29,7 @@ const Header = () => {
           </Link>
         
 
-          <img src={ headerImg } className="headerImg" alt="Dentist office  logo" width='60%'/>
+          <img src={ headerImg } className="headerImg" alt="Dentist office  logo" width='65%' />
           <h3>Complete <br /> family dental <br /> care for <br /> healthy & beautiful smiles.</h3>
           
           
