@@ -13,11 +13,12 @@ import office3Img from "../../assets/images/8office.jpg";
 
 import 'swiper/css'
 import 'swiper/css/navigation'
+import './gallery.scss'
 
 const Galley = () => {
   return (
-  <section className="galley-section">
-    <div className="galley-section-wrapper">
+  <section className="gallery-section">
+    <div className="gallery-section-wrapper">
       <div className="officeImag-section">
         <Swiper
           modules={[Pagination, Autoplay]}

@@ -87,9 +87,13 @@ a {
   display: none;
 }
 
-
-
-
+.wrapper {
+  width: 100%;
+  height: auto;
+  background-color: var(--primary-bg);
+  z-index: -999;
+  overflow: hidden;
+}
 
 .section__padding {
   padding: 0 2rem;
