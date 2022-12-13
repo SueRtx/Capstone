@@ -11,6 +11,9 @@ import office1Img from "../../assets/images/6office.jpg";
 import office2Img from "../../assets/images/7office.jpg";
 import office3Img from "../../assets/images/8office.jpg";
 
+import 'swiper/css'
+import 'swiper/css/navigation'
+
 const Galley = () => {
   return (
   <section className="galley-section">
@@ -26,29 +29,28 @@ const Galley = () => {
 
           <SwiperSlide>
             <img src={outside1Img} alt="Office Pictures" />
-            
           </SwiperSlide>
+
           <SwiperSlide>
-            <img src={outside2Img} alt="Office Pictures" />
-            
+            <img src={outside1Img} alt="Office Pictures" />
           </SwiperSlide>
+
           <SwiperSlide>
             <img src={outside3Img} alt="Office Pictures" />
-            
           </SwiperSlide>
+
           <SwiperSlide>
             <div>
               <img src={roomImg} alt="Office Pictures" />
-             
             </div>
           </SwiperSlide>
+
           <SwiperSlide>
             <img src={sterilImg } alt="Office Pictures" />
-            sterilImg
           </SwiperSlide>
         </Swiper>
         </div>
-        </div>
+      </div>
     </section> 
   )
 }
