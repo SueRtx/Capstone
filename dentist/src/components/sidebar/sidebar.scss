@@ -1,8 +1,8 @@
  .aside {
-  width: 170px;
+  width: 150px;
   height: 100%;
   position: fixed;
-  background: var(--sideBar-bg);
+  background: var(--typical-color);
   top: 0;
   left: 0;
   z-index: 3;
@@ -15,7 +15,7 @@
     height: 181px; //logo bax
     top: 0;
     left: 0;
-    background-color: var(--typical-color);
+    background-color: var(  --sideBar-bg);
   }
 }
 // show sidebar when you click on the icon menu
@@ -60,6 +60,7 @@
   right: 40px;
   top: 40px;
   color: var(--primary-color);
+  
   font-size: 1.8rem;
   cursor: pointer;
   display: none;
@@ -82,7 +83,7 @@ ul.side-link li {
   line-height: 2.8;
   position: relative;
   // background-color: #fabb99;
-  padding-left: 10px;
+  padding-left: 1px;
 }
 .nav__links {
   display: block;

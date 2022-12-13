@@ -52,10 +52,10 @@
 * 12:10pm - 03:00pm -- Reserach & working on code
 * 04:00pm - 06:50pm -- Reserach & working on code
 
-#### 12/12/2022 ~
+#### 12/12/2022 ~9hrs
 * 10:37am -  02:19pm -- Reserach & working on code
 * 3:30pm - 06:18pm -- Reserach & working on code
-08:30pm - -- Reserach & working on code
+* 08:30pm - 11:04pm -- Reserach & working on code
 
 ## Technologies Used
 

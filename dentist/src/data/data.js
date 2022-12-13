@@ -11,27 +11,27 @@ import { RiTwitterFill, RiInstagramFill } from 'react-icons/ri'
 // sidebar menu list and icons
 const sideBarMenu = [
   {
-    text: 'Home',
+    text: 'HOME',
     icon: <AiFillHome className="link-icon" />,
     url: '/',
   },
   {
-    text: 'About Us',
+    text: 'ABOUT',
     icon: <RiContactsFill className="link-icon" />,
     url: '/about',
   },
   {
-    text: 'Services',
+    text: 'SERVICES',
     icon: <MdMedicalServices className="link-icon" />,
     url: '/service',
   },
   {
-    text: 'Contacts',
+    text: 'CONTACTS',
     icon: <MdEmail className="link-icon" />,
     url: '/contact',
   },
   {
-    text: 'Patients',
+    text: 'PATIENTS',
     icon: <IoMdDownload className="link-icon" />,
     url: '/patient',
   },
