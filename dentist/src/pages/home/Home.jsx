@@ -2,7 +2,7 @@ import React from 'react'
 // components
 import { Header } from '../../components'
 // pages
-import { Contact, About, Service, Patient } from '../../pages'
+import { Contact, About, Service, Patient, Gallery } from '../../pages'
 
 const Home = () => {
   return (
@@ -11,9 +11,11 @@ const Home = () => {
       <section >
       <About />
       </section>
+      
       <Service />
       <Patient />
       <Contact />
+      < Gallery />
 
     </>
   )

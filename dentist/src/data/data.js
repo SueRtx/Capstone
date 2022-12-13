@@ -5,7 +5,7 @@ import { AiFillHome } from 'react-icons/ai'
 import { MdMedicalServices, MdEmail } from 'react-icons/md'
 import { RiContactsFill } from 'react-icons/ri'
 import { IoMdDownload } from 'react-icons/io'
-import { BsLinkedin } from 'react-icons/bs'
+import { BsLinkedin, BsImageFill } from 'react-icons/bs'
 import { RiTwitterFill, RiInstagramFill } from 'react-icons/ri'
 
 // sidebar menu list and icons
@@ -19,6 +19,11 @@ const sideBarMenu = [
     text: 'ABOUT',
     icon: <RiContactsFill className="link-icon" />,
     url: '/about',
+  },
+  {
+    text: 'GALLERY',
+    icon: <BsImageFill className="link-icon" />,
+    url: '/gallery',
   },
   {
     text: 'SERVICES',
