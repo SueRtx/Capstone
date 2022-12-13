@@ -4,6 +4,11 @@
   align-items: center;
   font-family: sans-serif;
   position: relative;
+  background:  var(--sideBar-bg)  url("../../assets/images/bg5.jpg");
+
+  background-size: cover;
+  // opacity: 0.8;
+  background-blend-mode: luminosity;
 }
 
 //header
@@ -12,6 +17,7 @@
   color: var(--primary-color);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: -8% -5% 0% -3%;
+  
   padding-top: 40px;
 }
 .intro-page h1 {
@@ -68,23 +74,20 @@
 
 .intro-page h3 {
   
-  //  background: rgb(91, 179, 187) url("../../assets/images/smile1.jpg") ;
-  //  background-blend-mode: luminosity;
-  //  background-size: cover;
-  //  z-index: -1;
-
-  
-
+  // background:  var(--sideBar-bg)  url("../../assets/images/header.jpg");
+  // background-size: cover;
+  // // opacity: 0.8;
+  // background-blend-mode: luminosity;
   align-content: center;
   font-size: 2.2em;
   line-height: 3.75rem;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 600;
   margin-top: -31%;
   margin-left: 63%;
-  color: var(--color-tem);
+  color: var(  --primary-text-color);
   // font-family: Georgia, 'Times New Roman', Times, serif;
-  border: 3px solid var(--color-tem);
+  // border: 3px solid var(--color-tem);
   text-align: center;
   padding: 10px;
 }

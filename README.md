@@ -54,7 +54,7 @@
 
 #### 12/12/2022 ~
 * 10:37am -  02:19pm -- Reserach & working on code
-* 3:30pm -  -- Reserach & working on code
+* 3:30pm - 06:12pm -- Reserach & working on code
 
 ## Technologies Used
 
