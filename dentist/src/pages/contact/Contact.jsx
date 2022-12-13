@@ -144,7 +144,7 @@ const Contact = React.memo(() => {
     
             <h1>Contact Us</h1>
             <h2><BsFillTelephoneFill /> (503) 815-1777</h2>
-            <p><MdEmail /> Submit a request below.</p>
+            <h3><MdEmail /> Submit a request below.</h3>
           <Fade bottom>
             <div className="input-wrapper">
               <div className="form-input-group">

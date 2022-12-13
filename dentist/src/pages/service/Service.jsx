@@ -1,6 +1,6 @@
 import React from 'react'
 import Slide from 'react-reveal/Slide'
-
+import careImg from "../../assets/images/care2.png";
 import cleanImage from "../../assets/images/clean.jpg";
 import chairImage from "../../assets/images/chair.jpg";
 import whiteImage from "../../assets/images/white.png";
@@ -13,10 +13,12 @@ const Service = () => {
 <h1>Services</h1> 
     <article className="section-service-description">
       {/* <h1>Services</h1>  */}
-     
-        <h3>Our experienced and friendly dental staff is here to take care of your smile and needs.</h3>
-    
-   
+      <img src={ careImg } className="careImg" alt="temp" width='13%'/>
+
+      <h3>
+        OUR EXPERIENCED AND FRIENDLY DENTAL STAFF IS<br /> HERE TO TAKE CARE OF YOUR SMILE AND NEEDS.
+      </h3>
+
       <Slide bottom>
       <div>
       {/* <img src={ cleanImage } className="cleanImg" alt="temp" width='30%'/> */}
