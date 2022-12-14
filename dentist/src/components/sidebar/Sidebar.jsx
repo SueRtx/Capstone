@@ -1,7 +1,7 @@
 import React, { useReducer } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { sideBarMenu, socialIcons } from '../../data/data'
-
+import { ThemeTemplates } from '../../components'
 import { reducer } from '../../hooks/useReducer'
 import logoImage from "../../assets/images/logo.jpg";
 
@@ -41,6 +41,8 @@ const Sidebar = React.memo(() => {
               <a>Dr. Jin Ahn DMD</a>
             </span>
           </Link>
+
+          <ThemeTemplates  />
 
           <ul className="side-link">
             {sideBarMenu.map((link, index) => {

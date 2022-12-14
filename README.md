@@ -63,7 +63,7 @@
 * 08:00pm -  11:12pm -- Design logo  & working on code
 
 #### 12/14/2022 ~
-* 10:26am -   -- Reserach & working on code
+* 10:26am - 12:09pm -- Reserach & working on code
 
 
 
