@@ -12,7 +12,6 @@ const Service = () => {
     <div className="section-service-wrapper section__padding">
 <h1>Services</h1> 
     <article className="section-service-description">
-      {/* <h1>Services</h1>  */}
       <img src={ careImg } className="careImg" alt="temp" width='13%'/>
 
       <h3>
@@ -21,7 +20,7 @@ const Service = () => {
 
       <Slide bottom>
       <div>
-      {/* <img src={ cleanImage } className="cleanImg" alt="temp" width='30%'/> */}
+  
         <h2> PREVENTIVE DENTISTRY</h2>
         <ul>
           <li>Dental Checkups</li>
@@ -31,14 +30,13 @@ const Service = () => {
           <li>Fluoride Treatments</li>
           <li>Nightguards for Bruxism</li>  
           </ul>
-          <img src={ cleanImage } className="cleanImg" alt="temp" width='30%'/> 
+          <img src={ cleanImage } className="cleanImg" alt="temp" width='25%'/> 
           </div>
       </Slide>
    
 
      
       <Slide bottom >
-      {/* <img src={ chairImage } className="chairImg" alt="temp" width='30%'/> */}
       <div>
         <h2> GENERAL DENTISTRY</h2>
         <ul>
@@ -49,7 +47,7 @@ const Service = () => {
           <li>Extractions</li>
           <li>Partials / Dentures</li>
         </ul>
-        <img src={ chairImage } className="chairImg" alt="temp" width='30%'/>
+        <img src={ chairImage } className="chairImg" alt="temp" width='25%'/>
         </div>
       </Slide>
  
@@ -57,7 +55,6 @@ const Service = () => {
       
       <Slide bottom>
       <div>
-      {/* <img src={ whiteImage } className="chairImg" alt="temp" width='30%'/> */}
         <h2> COSMETIC DENTISTRY</h2>
         <ul>
           <li>Veneers</li>
@@ -67,7 +64,7 @@ const Service = () => {
           <li>Teeth Whitening</li>
           <li>Gum Recontouring</li>
         </ul>
-        <img src={ whiteImage } className="whiteImg" alt="temp" width='30%'/>
+        <img src={ whiteImage } className="whiteImg" alt="temp" width='25%'/>
         </div>
       </Slide>
      
