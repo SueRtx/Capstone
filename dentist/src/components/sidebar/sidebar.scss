@@ -2,7 +2,7 @@
   width: 150px;
   height: 100%;
   position: fixed;
-  background: var(--typical-color);
+  background: var(--darker-bg);
   top: 0;
   left: 0;
   z-index: 3;
@@ -15,7 +15,7 @@
     height: 181px; //logo bax
     top: 0;
     left: 0;
-    background-color: var(  --sideBar-bg);
+    background-color: var(  --lighter-bg);
   }
 }
 // show sidebar when you click on the icon menu
@@ -59,7 +59,7 @@
   position: fixed;
   right: 40px;
   top: 40px;
-  color: var(--primary-color);
+  color: var(--primary-text-color);
   
   font-size: 1.8rem;
   cursor: pointer;
@@ -90,13 +90,13 @@ ul.side-link li {
   transition: all 250ms linear;
 }
 .active-links {
-  color: var(--color-tem);
+  color: var(--second-text-color);
 }
 
 ul.side-link li .link-icon {
   font-size: 15px;
   margin-right: 15px;
-//  color: var(--color-tem);
+//  color: var(--second-text-color);
 }
 
 // social media icons
@@ -109,13 +109,13 @@ ul.side-link li .link-icon {
   margin-left: 17px;
   transition: 0.2s linear;
   
-  // color: var(--color-tem);
+  // color: var(--second-text-color);
   // &:hover {
   //   color: var(--anchor-color);
 
-    color: var(--anchor-color);
+    color: var(--primary-text-color);
     &:hover {
-      color: var(--color-tem);
+      color: var(--second-text-color);
   }
 }
 

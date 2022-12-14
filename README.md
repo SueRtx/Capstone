@@ -57,10 +57,10 @@
 * 03:30pm - 06:18pm -- Reserach & working on code
 * 08:30pm - 11:04pm -- Reserach & working on code
 
-#### 12/13/2022 
+#### 12/13/2022 ~9hrs
 * 10:33am -  02:47pm -- Reserach & working on code
-* 04:00pm -  05:58pm-- Reserach & working on code
-* 08:00pm -  -- Design logo
+* 04:00pm -  05:58pm -- Reserach & working on code
+* 08:00pm -  11:12pm -- Design logo  & working on code
 
 
 ## Technologies Used

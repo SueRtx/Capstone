@@ -11,7 +11,7 @@ const Map = () => {
 
        {/* address box */}
       <div className="map-content">
-        <h3 className="switch__color">Tillamook Family Dentistry</h3>
+        <h3 className="primary-text-color">Tillamook Family Dentistry</h3>
         
         <span>2503 Main Ave N</span>
         <br />

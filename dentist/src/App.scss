@@ -10,22 +10,28 @@
   font-family: 'Helvetica Neue', sans-serif;
 }
 :root {
-  --primary-bg: #ece4de;//pg background
-  --random-color: #d24613;
-  --primary-color: #338ed8;//letter color
-  --bt-background: #f2ece9;//bt home background
-  --bt-background2:rgb(176, 227, 218);//bt about background
-  --bt-hover: #edaa92;//page on light up
-  --color-tem: #ea764c;//page on light up
-  --second-primary-color:#efeed3;
-  --anchor-color: #338ed8; //hoover social icon
-  --sideBar-bg: #f3cdb8;//sidebar background 
+  --primary-bg: #ece4de;  //pg background
+  --darker-bg: #f4af8a;  // lighter background box
+  --lighter-bg: #f3cdb8;   //darker background box
+
+  --primary-text-color: #1a7bd6; //blue text
+  --second-text-color: #ea764c;  //orange text
+
+  --bt-background: #afc4d8;//bt background
+  --bt-hover: #f4af8a;//bt hover
+  
+  --border-color: #ea764c;;
+  
   --box-shadow: 0 0 15px 0px #0808087a;
+
   --light-bg: #504d4b;
-  --typical-color: #f4af8a;//logo bk-g
   --theme-wrapper-bg: #ffffff;
-  --primary-text-color: #2a8cdb;
+  --light-bg: #504d4b;
+  --anchor-color: #338ed8; 
   --hover-color: #8a4e18;
+  
+  --second-primary-color:#efeed3;
+  --primary-color: #338ed8;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

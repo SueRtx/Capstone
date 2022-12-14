@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: 1fr;
   
-  background:  var(--sideBar-bg)  url("../../assets/images/bkg1.jpg");
+  background:  var(--lighter-bg)  url("../../assets/images/bkg1.jpg");
   
   // opacity: 0.8;
   
@@ -24,7 +24,7 @@ background-size: cover;
   margin-bottom: 15px;
   text-align: center;
  text-shadow: 2px 2px 2px black;
-  color: var(--color-tem);
+  color: var(--second-text-color);
 }
 // .section-patient-description h1 {
 //   display: block;
@@ -52,7 +52,7 @@ background-size: cover;
   font-size: 1.3rem;
   line-height: 2rem;
   margin-bottom: 15px;
-  color: var(--color-tem);
+  color: var(--second-text-color);
  width: 65%;
 //  background-color: #eec4b4;
  padding: 30px;
@@ -105,7 +105,7 @@ margin-top: -5px;
   place-items: center;
   transform: translate(80%, 80%);
   position: relative;
-  color: var(--color-tem);
+  color: var(--second-text-color);
   &::after {
     content: 'scroll down';
     position: absolute;

@@ -4,22 +4,17 @@
   align-items: center;
   font-family: sans-serif;
   position: relative;
-  // background:  var(--sideBar-bg)  url("../../assets/images/bg.jpg");
-
-  // background-size: cover;
-  // // opacity: 0.8;
-  // background-blend-mode: luminosity;
 }
 
 //header
 .intro-page div {
- background-color: var(--sideBar-bg);
-  color: var(--primary-color);
+  background-color: var(--lighter-bg);
+  color: var(--primary-text-color);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: -8% -5% 0% -3%;
-  
   padding-top: 40px;
 }
+
 .intro-page h1 {
   font-size: 3.5em;
   line-height: 4rem;
@@ -38,30 +33,28 @@
   font-weight: bold;
   margin-top: 5px;
   text-align: center;
-  color: var(--color-tem);
+  color: var(--second-text-color);
   text-shadow: 1px 1px 1px black;
   border-bottom: 2px solid black;
 }
+
 .intro-page h4 {
   font-size: 1em;
   line-height: 2.5rem;
-  
   font-weight: bold;
   margin-top:5px;
- 
   color: var(--primary-text-color);
-
 }
 
 .adress-info {
-  color: var(--color-tem);
+  color: var(--second-text-color);
   width: 25px;
   margin-right: 12px;
   margin-top: 3px;
 }
 
 .office-info {
-  color: var(--color-tem);
+  color: var(--second-text-color);
   width: 25px;
   margin-left: 4px;
   margin-right: 2px;
@@ -74,45 +67,32 @@
 }
 
 .intro-page h3 {
-  // background:  var(--sideBar-bg)  url("../../assets/images/header.jpg");
-  // background-size: cover;
-  // // opacity: 0.8;
-  // background-blend-mode: luminosity;
   align-content: center;
-  font-size: 2.1em;
-  line-height: 3.4rem;
+  font-size: 1.8em;
+  line-height: 3.5rem;
   letter-spacing: 2px;
   font-weight: 600;
-  margin-top: -38.5%;
-  margin-left: 63%;
-  margin-bottom: 40px;
+  margin: -38.5% 0 4% 63% ;
   color: var(--primary-text-color);
   text-shadow: 2px 2px 2px black;
-  // font-family: Georgia, 'Times New Roman', Times, serif;
-  border: 3px solid var(--color-tem);
+  border: 3px solid var(--second-text-color);
   text-align: center;
-  padding: 10px;
-  background:  var(--sideBar-bg)
+  padding: 33px;
+  background:  var(--lighter-bg)
 }
 
-//  contact button
+//contact button
   .contact-button-home {
     display: block;
     width: 70%;
     height: 30px;
     max-width: 200px;
-  // line-height: 50px;
     position: relative;
     animation: fadeInAnimation 1s 1.8s backwards;
     margin-left: 85%;
     margin-top: -3.4%;
 }
 
-//  .contact-button-home {
-  
-//   margin-left: 73%;
-//   margin-top: -3.2%;
-// }
 
 .contact-button-home div {
   width: 70%;
@@ -121,7 +101,7 @@
   overflow: hidden;
   border-radius: 0 15px 0 15px;
   background:  var(--bt-background);
-   padding-top: 7px;
+  padding-top: 7px;
 }
 
 .contact-button-home span.bg {
@@ -147,7 +127,7 @@
   top: 0;
   left: 0;
   border-radius: 0 15px 0 15px;
-  border: 1px solid var(--color-tem);
+  border: 1px solid var(--second-text-color);
 }
 
  .contact-button-home span.text {
@@ -158,41 +138,45 @@
   left: 0;
 }
 
-.submit-button {
-  margin-top: 10px;
-  background: transparent;
-  border: none;
-  outline: none;
-  color: #8a8484;
-  cursor: pointer;
-  font-size: 1rem;
-}
 
-.submit-button:hover {
-  color: #2d2b2b;
-}
-.scroll__wrapper {
-  display: flex;
-  place-items: center;
-  transform: translate(80%, 80%);
-  position: relative;
-  color: var(--color-tem);
-  &::after {
-    content: 'scroll down';
-    position: absolute;
-    top: 0;
-    left: -8px;
-  }
-  display: none;
-}
 
-.scroll__down {
-  font-size: 4rem;
-  animation: scroll 2s ease-in alternate-reverse infinite;
-}
-.scroll__down:hover .scroll__wrapper::after {
-  display: block;
-}
+
+
+// .submit-button {
+//   margin-top: 10px;
+//   background: transparent;
+//   border: none;
+//   outline: none;
+//   color: #8a8484;
+//   cursor: pointer;
+//   font-size: 1rem;
+// }
+
+// .submit-button:hover {
+//   color: #2d2b2b;
+// }
+// .scroll__wrapper {
+//   display: flex;
+//   place-items: center;
+//   transform: translate(80%, 80%);
+//   position: relative;
+//   color: var(--second-text-color);
+//   &::after {
+//     content: 'scroll down';
+//     position: absolute;
+//     top: 0;
+//     left: -8px;
+//   }
+//   display: none;
+// }
+
+// .scroll__down {
+//   font-size: 4rem;
+//   animation: scroll 2s ease-in alternate-reverse infinite;
+// }
+// .scroll__down:hover .scroll__wrapper::after {
+//   display: block;
+// }
 
 // extra large screens
 @media screen and (max-width: 1900px) {

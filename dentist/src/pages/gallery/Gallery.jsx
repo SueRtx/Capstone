@@ -2,7 +2,7 @@ import React from 'react'
 import { Pagination, Autoplay } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import outside1Img from "../../assets/images/1outside.jpg";
+import outside1Img from "../../assets/images/1outside.png";
 // import outside2Img from "../../assets/images/2outside.jpg";
 // import outside3Img from "../../assets/images/3outside.jpg";
 import roomImg from "../../assets/images/4room.jpg";
