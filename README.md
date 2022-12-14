@@ -60,6 +60,8 @@
 #### 12/13/2022 
 * 10:33am -  02:47pm -- Reserach & working on code
 * 04:00pm -  05:58pm-- Reserach & working on code
+* 08:00pm -  -- Design logo
+
 
 ## Technologies Used
 
