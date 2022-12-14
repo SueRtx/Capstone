@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import { sideBarMenu, socialIcons } from '../../data/data'
 
 import { reducer } from '../../hooks/useReducer'
-import logoImage from "../../assets/images/logo.png";
+import logoImage from "../../assets/images/logo.jpg";
 
 import './sidebar.scss'
 
@@ -36,7 +36,7 @@ const Sidebar = React.memo(() => {
             to="/"
           >
 
-            <img src={logoImage} alt="Dentist office  logo" width='90%'/>
+            <img src={logoImage} alt="Dentist office  logo" width='100%'/>
             <span className="nameColor" style={{ fontSize: '0.9rem' }}>
               <a>Dr. Jin Ahn DMD</a>
             </span>
