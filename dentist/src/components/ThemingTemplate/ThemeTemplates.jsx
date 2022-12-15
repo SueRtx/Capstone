@@ -1,9 +1,9 @@
 import React from 'react'
-import { FiSettings } from 'react-icons/fi'
+
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs'
 import { useGLobalContext } from '../../hooks/contextAPI'
 
-import { BsXLg } from 'react-icons/bs'
+
 import './themetemplate.scss'
 
 const ThemeTemplate = React.memo(() => {

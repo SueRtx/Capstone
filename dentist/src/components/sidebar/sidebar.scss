@@ -12,10 +12,10 @@
     content: '';
     position: absolute;
     width: 100%;
-    height: 181px; //logo bax
+    height: 181px; //logo box
     top: 0;
     left: 0;
-    background-color: var(  --lighter-bg);
+    background-color: var(--lighter-bg);
   }
 }
 // show sidebar when you click on the icon menu
@@ -29,7 +29,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 25px;
+  padding-top: 15px;
   z-index: 2;
   span {
     color: #fff;
