@@ -12,11 +12,13 @@ const Service = () => {
     <div className="section-service-wrapper section__padding">
 <h1>Services</h1> 
     <article className="section-service-description">
+    <Slide bottom>
       <img src={ careImg } className="careImg" alt="temp" width='13%'/>
 
       <h3>
         OUR EXPERIENCED AND FRIENDLY DENTAL STAFF IS<br /> HERE TO TAKE CARE OF YOUR SMILE AND NEEDS.
       </h3>
+      </Slide>
 
       <Slide bottom>
       <div>

@@ -13,6 +13,12 @@
   text-align: center;
   text-shadow: 2px 2px 2px var(--text-shadow-color);
 }
+
+.careImg {
+  margin-left: 5%;
+  border: 4px solid  var(--border-color);
+}
+
 .section-service-description {
   padding-top: 50px;
   display: grid;
@@ -36,11 +42,6 @@
 }
 
 // service descriptions & img
-.careImg {
-  margin-left: 5%;
-  // border: 4px solid  var(--second-text-color);
-  border-radius: 65px;
-}
 
 .cleanImg  {
   margin-left: 60%;

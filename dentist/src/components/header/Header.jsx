@@ -12,10 +12,10 @@ const Header = () => {
     <section className="section-1 header__container section__padding">
       <main className="intro-page">
         <h1>Tillamook Family Dentistry</h1> 
-        <h2><ImAddressBook className="adress-info"/>2503 Main Ave N, Tillamook, OR 97141 <BsFillTelephoneFill className=".office-info"/> 503-815-1777 
-        </h2>
-
         {/* Office info */}
+        <h2><ImAddressBook className="adress-info"/>2503 Main Ave N, Tillamook, OR 97141 <BsFillTelephoneFill className=".adress-info"/> 503-815-1777 
+        </h2> 
+
         <h4><BsFillCalendarFill className="office-info"/> Mon - Thurs: 9:00 AM - 5:00 PM <FaTooth className="office-info"/> AVAILABLE FOR EMERGENCIES <AiTwotoneMail className="office-info"/>tillamookfamilydentistry@yahoo.com</h4>
 
         {/* contact us */}
@@ -23,12 +23,16 @@ const Header = () => {
           <div>
             <span className="bg bt-hover"></span>
             <span className="base border-color"></span>
-            <span className="text">Contact me</span>
+            <span className="text">CONTACT US</span>
           </div> 
         </Link>
-        
+
+        <div>
         <img src={ headerImg } className="headerImg" alt="Dentist office  logo" width='60%' />
-        <h3>COMPLETE <br /> FAMILY DENTAL<br /> CARE FOR <br /> HEALTHY <br />AND  <br />BEAUTIFUL SMILES.</h3>    
+        <h3>COMPLETE <br /> FAMILY DENTAL<br /> CARE FOR <br /> HEALTHY <br />AND  <br />BEAUTIFUL SMILES.</h3>
+
+        {/* <h3>COMPLETE  FAMILY DENTAL CARE FOR  HEALTHY AND  BEAUTIFUL SMILES.</h3> */}
+        </div> 
       </main>
     </section>
   )
