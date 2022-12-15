@@ -16,11 +16,16 @@
     top: 0;
     left: 0;
     background-color: var(--lighter-bg);
+    
   }
 }
 // show sidebar when you click on the icon menu
 .show-asideBar {
   transform: translate(-100%);
+}
+.name-Color p{
+  margin-top: 13px;
+  font-size: 15px;
 }
 
 // logo section in the sidebar
@@ -35,13 +40,6 @@
     color: #fff;
   }
 }
-
-// .sidebar__logo {
-//   width: 60px;
-//   height: auto;
-//   fill: #cc6c06;
-// }
-// the classname that wraps all the element in the sidebar
 
 .aside-wrapper {
   width: 80%;
@@ -67,28 +65,23 @@
   transition: all 0.2s linear;
   z-index: 2;
 }
+
 .menu-icon:hover {
   transform: translate(5px);
 }
-.close-btn {
-  z-index: 999;
-  position: absolute;
-}
-.close-btn:hover {
-  transform: rotate(360deg);
-}
 
-// sidebar list element starts here
+// sidebar list 
 ul.side-link li {
   line-height: 2.8;
   position: relative;
-  // background-color: #fabb99;
   padding-left: 1px;
 }
+
 .nav__links {
   display: block;
   transition: all 250ms linear;
 }
+
 .active-links {
   color: var(--second-text-color);
 }
@@ -96,7 +89,6 @@ ul.side-link li {
 ul.side-link li .link-icon {
   font-size: 15px;
   margin-right: 15px;
-//  color: var(--second-text-color);
 }
 
 // social media icons
@@ -105,17 +97,12 @@ ul.side-link li .link-icon {
   bottom: 0;
 }
 .social-icon .icon {
-  font-size: 15px;
+  font-size: 17px;
   margin-left: 17px;
   transition: 0.2s linear;
-  
-  // color: var(--second-text-color);
-  // &:hover {
-  //   color: var(--anchor-color);
-
-    color: var(--primary-text-color);
-    &:hover {
-      color: var(--second-text-color);
+  color: var(--primary-text-color);
+  &:hover {
+    color: var(--second-text-color);
   }
 }
 
@@ -140,27 +127,3 @@ ul.side-link li .link-icon {
   }
 }
 
-// small devices
-@media screen and (max-width: 1024px) {
-  .aside-wrapper {
-    text-align: center;
-  }
-  ul.side-link li {
-    line-height: 2.8;
-    font-weight: bold;
-  }
-  ul.side-link li .link-icon {
-    display: none;
-  }
-
-  // social media icons
-  .social-icon {
-    text-align: center;
-  }
-  .social-icon .icon {
-    font-size: 25px;
-    &:hover {
-      animation: rubberBand 1s;
-    }
-  }
-}
