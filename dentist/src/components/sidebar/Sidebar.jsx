@@ -23,7 +23,7 @@ const Sidebar = React.memo(() => {
         }`}
       >
         <div className="aside-wrapper">
-        {/* logo  link */}
+          {/* logo  link */}
           <Link
             className="logo-section"
             style={{
@@ -34,14 +34,14 @@ const Sidebar = React.memo(() => {
             }}
             to="/"
           >
-
             <img src={logoImage} alt="Dentist office  logo" width='100%'/>
-            <span className="name-Color">
               <p>Dr. Jin Ahn DMD</p>
-            </span>
           </Link>
 
+          {/* background color mode */}
           <ThemeTemplates  />
+
+          {/* side link */}
           <ul className="side-link">
             {sideBarMenu.map((link, index) => {
               const { text, icon, url } = link
@@ -61,7 +61,8 @@ const Sidebar = React.memo(() => {
               )
             })}
           </ul>
-          
+
+          {/* social-icon link */}
           <div className="social-icon">
             {socialIcons.map((icons, index) => {
               const { icon, url } = icons
@@ -77,6 +78,5 @@ const Sidebar = React.memo(() => {
     </>
   )
 })
-
 
 export default Sidebar

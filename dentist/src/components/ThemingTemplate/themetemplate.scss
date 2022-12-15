@@ -1,10 +1,11 @@
 .mode {
   display: flex;
-    align-items: center;
-    justify-content:center;
-  margin-top: 25px;
-  border: 2px solid rgb(235, 141, 82);
-  padding: 6px;
+  align-items: center;
+  justify-content:center;
+  margin-top: 15px;
+  border: 3px solid rgb(235, 141, 82);
+  line-height: 1.3rem;
+  padding: 7px;
   width: 100%;
   background-color:#aaccdb ;
   div {
@@ -13,19 +14,6 @@
     font-size: 1.1rem;
     display: grid;
     place-items: center;
- 
-    // border-radius: 10px;
-    // cursor: pointer;
-    color: #c9eff0;
-    // transition: 250ms linear;
-    // box-shadow: var(--box-shadow);
-  }
-  .icon {
-    transition: all 0.2s cubic-bezier(0.8, 0.84, 0.44, 1);
-    &:hover {
-      transform: rotate(360deg);
-     
-    }
   }
 }
 
@@ -33,19 +21,18 @@
   color:yellow;
   margin-left: -8px;
 }
-.sunColor:hover{
-  color: rgb(252, 248, 242);
-}
-
 .moonColor:hover{
   color: rgb(21, 22, 21);
 }
 
-
 .sunColor {
   color: rgb(236, 121, 20);
-   margin-left: -42px;
+  margin-left: -42px;
 }
+.sunColor:hover{
+  color: rgb(252, 248, 242);
+}
+
 
 
 
