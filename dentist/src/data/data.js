@@ -31,14 +31,14 @@ const sideBarMenu = [
     url: '/service',
   },
   {
-    text: 'CONTACTS',
-    icon: <MdEmail className="link-icon" />,
-    url: '/contact',
-  },
-  {
     text: 'PATIENTS',
     icon: <IoMdDownload className="link-icon" />,
     url: '/patient',
+  },
+  {
+    text: 'CONTACTS',
+    icon: <MdEmail className="link-icon" />,
+    url: '/contact',
   },
 ]
 

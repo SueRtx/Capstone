@@ -80,15 +80,15 @@
 }
 
 //contact button
-  .contact-button-home {
-    display: block;
-    width: 70%;
-    height: 30px;
-    max-width: 200px;
-    position: relative;
-    animation: fadeInAnimation 1s 1.8s backwards;
-    margin-left: 86%;
-    margin-top: -3.4%;
+.contact-button-home {
+  display: block;
+  width: 70%;
+  height: 30px;
+  max-width: 200px;
+  position: relative;
+  animation: fadeInAnimation 1s 1.8s backwards;
+  margin-left: 86%;
+  margin-top: -3.4%;
 }
 
 .contact-button-home div {
@@ -97,8 +97,10 @@
   position: relative;
   overflow: hidden;
   border-radius: 0 15px 0 15px;
-  background:  var(--bt-background);
-  padding-top: 7px;
+  background: rgb(233, 233, 91);
+  padding-top: 10px;
+  font-size: 14px;
+  color: var(--second-text-color);
 }
 
 .contact-button-home span.bg {
@@ -149,7 +151,7 @@
   }
   .intro-page h2 {
     font-size: 1.5rem;
-    line-height: 3.5rem;
+    line-height: 2.6rem;
   }
   .intro-page h3 {
     font-size: 1.5rem;
