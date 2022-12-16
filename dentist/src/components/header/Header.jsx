@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import headerImg from "../../assets/images/smile.jpg";
-import toothImg from "../../assets/images/tooth1.png";
+import headerImg from "../../images/smile.jpg";
+import toothImg from "../../images/tooth1.png";
 import { BsFillCalendarFill, BsFillTelephoneFill } from 'react-icons/bs'
 import { FaTooth } from 'react-icons/fa'
 import { AiTwotoneMail } from 'react-icons/ai'
@@ -28,7 +28,7 @@ const Header = () => {
           </div> 
         </Link>
 
-        <img src={ headerImg } className="headerImg" alt="Dentist office  logo" width='60%' />
+        <img src={ headerImg } className="headerImg" alt="Smiling family" width='62%'/>
 
         {/* tooth side box */}
         <div className='toothSideBox'>

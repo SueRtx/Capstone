@@ -1,7 +1,6 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
-import forms from '../../assets/images/forms.pdf'
-import drImage from "../../assets/images/bkg1.jpg";
+import forms from '../../images/forms.pdf'
 import './patient.scss'
 
 
