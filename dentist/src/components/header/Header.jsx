@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import headerImg from "../../assets/images/smile1.jpg";
+import headerImg from "../../assets/images/smile.jpg";
+import toothImg from "../../assets/images/tooth.png";
 import { BsFillCalendarFill, BsFillTelephoneFill } from 'react-icons/bs'
 import {FaTooth } from 'react-icons/fa'
 import {AiTwotoneMail } from 'react-icons/ai'
@@ -27,12 +28,14 @@ const Header = () => {
           </div> 
         </Link>
 
-        <div>
         <img src={ headerImg } className="headerImg" alt="Dentist office  logo" width='60%' />
-        <h3>COMPLETE <br /> FAMILY DENTAL<br /> CARE FOR <br /> HEALTHY <br />AND  <br />BEAUTIFUL SMILES.</h3>
 
-        {/* <h3>COMPLETE  FAMILY DENTAL CARE FOR  HEALTHY AND  BEAUTIFUL SMILES.</h3> */}
-        </div> 
+        {/* tooth side box */}
+        <div className='toothSideBox'>
+          <img src={ toothImg } className="toothImg" alt="Dentist office  logo" width='100%' />
+
+          <h3>COMPLETE <br /> FAMILY DENTAL CARE<br /> FOR HEALTHY AND  <br />BEAUTIFUL <br />SMILES</h3>
+        </div>
       </main>
     </section>
   )
