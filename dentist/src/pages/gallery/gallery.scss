@@ -9,26 +9,22 @@
 .officeImag-section img {
   width: 100%;
   height: 350px;
-  // border-radius: 10px;
   object-fit: cover;
 }
 
-
-  
-  
-  @media screen and (max-width: 1900px) {
-    .gallery-section {
-      padding: 40px 4rem 5rem 13rem;
-      h2 {
-        margin: 20px 0;
-      }
+@media screen and (max-width: 1900px) {
+  .gallery-section {
+    padding: 40px 4rem 5rem 13rem;
+    h2 {
+      margin: 20px 0;
     }
-    .gallery-wrapper {
-      grid-template-columns: repeat(4, 1fr);
-      gap: 2em;
-    }
-    .officeImag-section img {
-      height: 450px;
-    }
-    
   }
+  .gallery-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+  }
+  .officeImag-section img {
+    height: 450px;
+  }
+  
+}

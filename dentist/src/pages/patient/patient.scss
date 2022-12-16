@@ -6,59 +6,39 @@
   padding-top: 0px;
   display: grid;
   grid-template-columns: 1fr;
-  
   background:  var(--lighter-bg)  url("../../images/bkg1.jpg");
-  
-  // opacity: 0.8;
-  
   background-blend-mode: luminosity;
-
-
-background-size: cover;
-
-  
+  background-size: cover;
 }
+
 .section-patient-wrapper  h1 {
   font-size: 3.5rem;
   margin-top: 55px;
   margin-bottom: 15px;
   text-align: center;
- text-shadow: 2px 2px 2px var(--text-shadow-color);
+  text-shadow: 2px 2px 2px var(--text-shadow-color);
   color: var(--second-text-color);
 }
-// .section-patient-description h1 {
-//   display: block;
-//   font-size: 3rem;
- 
-//   margin-bottom: 25px;
-//   text-align: center;
-// }
 
 .section-patient-description h2 {
   display: block;
   font-size: 1.6rem;
   line-height: 2.2rem;
-  
-  // text-decoration: underline;
-  // margin-top: -29%;
-  margin-bottom: 15px;
-  //  margin-left: 20%;
   text-align: left;
-  margin-left: 30%;
+  
+
+  margin: 3% 0% 0 33%;
 }
 
 .section-patient-description h3 {
   display: block;
   font-size: 1.3rem;
   line-height: 2rem;
-  margin-bottom: 15px;
   color: var(--second-text-color);
- width: 65%;
-//  background-color: #eec4b4;
- padding: 30px;
-//  font-family: Georgia, 'Times New Roman', Times, serif;
-margin-left: 27%;
- text-align: left;
+  width: 60%;
+  padding: 30px;
+  margin-left: 30%;
+  text-align: left;
 }
 
 .section-patient-description {
@@ -73,33 +53,31 @@ margin-left: 27%;
   height: 50px;
   max-width: 200px;
   line-height: 50px;
- 
   margin: 50px 0;
   animation: fadeInAnimation 1s 1.8s backwards;
   white-space: nowrap;
   background-color: rgb(251, 238, 217);
-border: 2px solid#ef8a65;
-border-radius: 0 15px 0 15px;
-margin-left: 40%;
-margin-top: -5px;
+  border: 2px solid#ef8a65;
+  border-radius: 0 15px 0 15px;
+  margin-left: 40%;
+  margin-top: -5px;
 }
 
-
-
+// submit button
 .submit-button {
   margin-top: 5px;
-  background-color: azure;
+  background-color: var(--bt-background);
   border-radius: 0 15px 0 15px;
-  
- 
-  color: #f0994d;
+  color: var(--primary-color);
+  font-weight: bold;
   cursor: pointer;
   font-size: 1rem;
 }
 
 .submit-button:hover {
-  color: #e20f1d;
+  background-color: var(--bt-hover);
 }
+
 .scroll__wrapper {
   display: flex;
   place-items: center;

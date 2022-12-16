@@ -66,9 +66,10 @@
 * 10:26am - 12:09am -- Reserach & working on code
 * 08:00pm - 01:25pm -- Reserach & working on code
 
-#### 12/15/2022 
+#### 12/15/2022 ~6hrs
 * 09:03am - 10:34am  -- Reserach & working on code
-* 08:00pm -  -- Reserach & working on code
+* 08:00pm - 12:29pm -- Reserach & working on code
+
 
 
 

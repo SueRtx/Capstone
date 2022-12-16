@@ -16,7 +16,7 @@
   --tooth-bg: #a04419;
 
   --theme-wrapper-bg: #ea9161; //theme
-
+  --map-border-color:  #eda077; 
   --primary-text-color: #2d96ec; //blue text
   --second-text-color: #ea764c;  //orange text
   // --primary-color: #338ed8;
@@ -32,10 +32,10 @@
 
   --theme-wrapper-bg: #efa882;
   // --light-bg: #504d4b;
-  // --anchor-color: #338ed8; 
+ --anchor-color: #338ed8; 
   // --hover-color: #8a4e18;
-  
-  // --second-primary-color:#efeed3;
+
+  --contact-autofillBox:#86bfee;
    --primary-color: #1281db;
 }
 
@@ -48,15 +48,15 @@
 
   --theme-wrapper-bg: #36322f; 
 
-  --primary-text-color: #1e5c8f; //blue text
-  --second-text-color: #984c19; 
-  --text-shadow-color: #545a61; //
+  --primary-text-color: #4086bf; //blue text
+  --second-text-color: #6a6765; 
+  --text-shadow-color: #838688; //
 
-  --bt-background: #afc4d8;//bt background
-  --bt-hover: #f4af8a;//bt hover
+  --bt-background: #aac1d8;//bt background
+  --bt-hover: #5d5f61;//bt hover
 
-  --border-color: #ea764c;
-
+  --border-color: #96999b;
+  --map-border-color: #2d96ec;
   // --primary-color: #797878; //letter color
   // --color-tem: #4486bc; //page on light up
   // --second-primary-color: rgb(64, 108, 190);
@@ -64,16 +64,15 @@
 
    --box-shadow: 0 0 15px 0px #0808084c;
   // // --light-bg: #ddd;
-  // --typical-color: rgb(71, 67, 67); //icon
+--contact-box-shadow: rgb(71, 67, 67); //icon
  
-
+--contact-autofillBox:#86bfee;
   // --hover-color: #fff;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Helvetica Neue', Arial, sans-serif;
-    
   overflow-x: hidden;
   background: var(--primary-bg);
 }
@@ -117,18 +116,6 @@ a {
   font-weight: bold;
 }
 
-.name-big {
-  display: block;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  position: absolute;
-  top: -20px;
-  left: 10%;
-  color: rgba(65, 65, 65, 0.068);
-  text-shadow: 2px 2px 4px 0 rgba(27, 26, 26, 0.5);
-  user-select: none;
-  display: none;
-}
 
 .wrapper {
   width: 100%;

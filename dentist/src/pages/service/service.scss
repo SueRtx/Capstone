@@ -1,6 +1,7 @@
 .section-service {
   position: relative;
 }
+
 .section-service-description div {
   background-color:  var(--lighter-bg);
   border: 2px;
@@ -35,25 +36,19 @@
   margin:-11% 0 5% 28%;
   color: var(--primary-text-color);
   width: 90%;
-//  font-family: Georgia, 'Times New Roman', Times, serif;
- 
-  // background-color: var(--darker-bg);
   padding-bottom: 40px;
 }
 
 // service descriptions & img
-
 .cleanImg  {
   margin-left: 60%;
   margin-top: -23%;
   border: 4px solid  var(--second-text-color);
- 
 }
 
 .chairImg {
   margin-left: 60%;
   margin-top: -24%;
-
   border: 4px solid  var(--second-text-color);
 }
 
@@ -63,12 +58,12 @@
   border: 4px solid  var(--second-text-color);
   margin-bottom: 3%;
 }
+
 .section-service-description h2 {
   display: block;
   font-size: 1.5rem;
   text-decoration: underline;
   margin-top: 4%;
-  // margin-bottom: 15px;
   margin-left: 15%;
 }
 

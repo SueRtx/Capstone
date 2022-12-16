@@ -6,13 +6,12 @@ import {MdEmail } from 'react-icons/md'
 import { Map } from '../../components'
 import Fade from 'react-reveal/Fade'
 
-
 // Email js
 import emailjs from '@emailjs/browser'
 import './contact.scss'
 
 const Contact = React.memo(() => {
-  const [letterClass, setLetterClass] = React.useState('text-animate')
+  const setLetterClass = React.useState('text-animate')
   React.useEffect(() => {
     const interval = setTimeout(() => {
       setLetterClass('text-animate-hover')
@@ -21,7 +20,7 @@ const Contact = React.memo(() => {
     return () => {
       clearInterval(interval)
     }
-  }, [])
+  })
 
   const [validInpt, setValidInpt] = useState({
     name: '',
@@ -123,7 +122,6 @@ const Contact = React.memo(() => {
       setSuccess(emailRef)
       setSuccess(TextAreaRef)
       showMessage('Message sent', 'green')
-
       setValidInpt({
         name: '',
         email: '',
@@ -135,16 +133,13 @@ const Contact = React.memo(() => {
 
   return (
     <>
-
-
-{/* contact us page */}
+      {/* contact us page */}
       <section className="contact-section">
-    
         <form ref={form} className="contact-form" onSubmit={onSubmit}>
-    
-            <h1>Contact Us</h1>
-            <h2><BsFillTelephoneFill /> (503) 815-1777</h2>
-            <h3><MdEmail /> Submit a request below.</h3>
+          <h1>Contact Us</h1>
+          <h2><BsFillTelephoneFill /> (503) 815-1777</h2>
+          <h3><MdEmail /> Submit a request below.</h3>
+
           <Fade bottom>
             <div className="input-wrapper">
               <div className="form-input-group">
@@ -162,7 +157,7 @@ const Contact = React.memo(() => {
               </div>
 
               <div className="form-input-group">
-                <input
+                <input className='input-color'
                   autoComplete="false"
                   ref={emailRef}
                   type="email"
@@ -194,6 +189,7 @@ const Contact = React.memo(() => {
               <BsPatchCheckFill className="checkCircle" />
             </div>
           </Fade>
+
           <Fade bottom>
             <div className="form-input-group">
               <textarea
@@ -210,11 +206,12 @@ const Contact = React.memo(() => {
               <BsPatchCheckFill className="checkCircle" />
             </div>
           </Fade>
+
           <Fade left>
             <button type="submit" className="contact-button submit-button">
               <div>
-                <span className="bg switch__bg"></span>
-                <span className="base switch__border-color"></span>
+                {/* <span className="bg switch__bg"></span>
+                <span className="base switch__border-color"></span> */}
                 <span className="text">
                   Send Message
                   <RiSendPlane2Fill className="message-deliver" />

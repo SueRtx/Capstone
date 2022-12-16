@@ -1,7 +1,5 @@
 import React from 'react'
-// components
 import { Header } from '../../components'
-// pages
 import { Contact, About, Service, Patient, Gallery } from '../../pages'
 
 const Home = () => {
@@ -9,7 +7,7 @@ const Home = () => {
     <>
       <Header />
       <section >
-      <About />
+        <About />
       </section>
       < Gallery />
       <Service />
