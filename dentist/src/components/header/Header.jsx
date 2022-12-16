@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import headerImg from "../../assets/images/smile.jpg";
-import toothImg from "../../assets/images/tooth.png";
+import toothImg from "../../assets/images/tooth1.png";
 import { BsFillCalendarFill, BsFillTelephoneFill } from 'react-icons/bs'
-import {FaTooth } from 'react-icons/fa'
-import {AiTwotoneMail } from 'react-icons/ai'
+import { FaTooth } from 'react-icons/fa'
+import { AiTwotoneMail } from 'react-icons/ai'
 import { ImAddressBook } from 'react-icons/im'
 import './header.scss'
 

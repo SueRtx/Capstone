@@ -2,7 +2,7 @@ import React from 'react'
 import Slide from 'react-reveal/Slide'
 import careImg from "../../assets/images/care2.png";
 import cleanImage from "../../assets/images/clean.jpg";
-import chairImage from "../../assets/images/chair.jpg";
+import chairImage from "../../assets/images/dentistry.png";
 import whiteImage from "../../assets/images/white.png";
 
 import './service.scss'
