@@ -1,11 +1,13 @@
 import React from 'react'
 import { Pagination, Autoplay } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import outside1Img from "../../components/images/1outside.png";
-import roomImg from "../../components/images/4room.jpg";
-import sterilImg from "../../components/images/5steril.jpg";
-import office1Img from "../../components/images/6office.jpg";
-import office2Img from "../../components/images/7office.jpg";
+
+import roomImg from "../../components/images/g1-room.jpg";
+import sterilImg from "../../components/images/g2-steril.jpg";
+import office1Img from "../../components/images/g3-office.jpg";
+import office2Img from "../../components/images/g4-office.jpg";
+import office3Img from "../../components/images/g5-office.jpg";
+import outside1Img from "../../components/images/g6-outside.png";
 import 'swiper/css'
 import 'swiper/css/navigation'
 import './gallery.scss'
@@ -24,11 +26,6 @@ const Galley = () => {
               pagination={{ clickable: true }}
               autoplay
             >
-
-              <SwiperSlide>
-                <img src={outside1Img} alt="Office Pictures" />
-              </SwiperSlide>
-
               <SwiperSlide>
                 <img src={roomImg} alt="Office Pictures" />
               </SwiperSlide>
@@ -44,8 +41,19 @@ const Galley = () => {
               </SwiperSlide>
 
               <SwiperSlide>
+                <div>
+                  <img src={office3Img} alt="Office Pictures" />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
                 <img src={sterilImg } alt="Office Pictures" />
               </SwiperSlide>
+
+              <SwiperSlide>
+                <img src={outside1Img} alt="Office Pictures" />
+              </SwiperSlide>
+
             </Swiper>
           </div>
         </div>

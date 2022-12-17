@@ -103,7 +103,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1581d9;
+  color: var(--primary-text-color);
   font-weight: bold;
 
 }
@@ -112,7 +112,7 @@ ul {
 }
 a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--primary-text-color);
   font-weight: bold;
 }
 
@@ -128,8 +128,6 @@ a {
 .section__padding {
   padding: 0 2rem;
 }
-
-
 
 @media screen and (min-width: 1200px) {
   .section__padding {
