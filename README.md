@@ -1,8 +1,43 @@
-# Capstone
+# Tillamook Family Dentistry (Capstone)
 
 #### By Sue Roberts
 
-####  Website for dentist office
+####  React website for dentist office 
+
+## Diagram
+
+![Diagram](dentist/src/components/images/rm-diagram.png)
+
+## Technologies Used
+* React
+* JavaScript
+* HTML
+* SCSS
+
+## Description
+A user for the website can view the dentist practice information that includes slide show, map and services offered by doctor & hygienist. Users can also download patient forms and send email from the contact page.
+
+## Project Images
+
+#### Light Mode
+
+![Diagram](dentist/src/components/images/rm-homeSun.png)
+![Diagram](dentist/src/components/images/rm-mapSun.png)
+
+#### Dark Mode
+
+![Diagram](dentist/src/components/images/rm-homeMoon.png)
+![Diagram](dentist/src/components/images/rm-mapMoon.png)
+
+## Setup/Installation Requirements
+
+* Clone repository: $ git clone https://github.com/SueRtx/Capstone.git   
+* Navigate to "dentist": $ cd dentist   
+* Open Vs Code: $ code .   
+* Open TERMINAL in Vs Code
+* Install dependencies: $ npm install
+* Run Program: Go to terminal  → $ npm start run 
+* Open web browser: http://localhost:3000/ (if web page does not open automatically) 
 
 ## Research & Planning Log
 
@@ -77,13 +112,6 @@
 * 08:08am - 9:30am  -- Reserach & working on code
 * 03:30pm - 05:00pm -- Reserach & working on code
 
-## Technologies Used
-
-## Description
-
-## Project Images
-
-## Setup/Installation Requirements
 
 ## Known Bugs
 
