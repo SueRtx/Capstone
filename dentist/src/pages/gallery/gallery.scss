@@ -9,7 +9,9 @@
 .officeImag-section img {
   width: 100%;
   height: 350px;
+  opacity: 0.8;
   object-fit: cover;
+  border: 4px solid var(--border-color);
 }
 
 @media screen and (max-width: 1900px) {

@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import { sideBarMenu, socialIcons } from '../../data/data'
 import { ThemeTemplates } from '../../components'
 import { reducer } from '../../hooks/useReducer'
-import logoImage from "../../images/logo.jpg";
+import logoImage from "../images/logo.jpg";
 
 import './sidebar.scss'
 

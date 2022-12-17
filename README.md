@@ -73,7 +73,8 @@
 #### 12/16/2022 ~6hrs
 * 09:08am - 10:34am  -- Reserach & working on code
 
-
+#### 12/17/2022 
+* 08:08am -   -- Reserach & working on code
 
 
 ## Technologies Used

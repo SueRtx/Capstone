@@ -1,11 +1,11 @@
 import React from 'react'
 import { Pagination, Autoplay } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import outside1Img from "../../images/1outside.png";
-import roomImg from "../../images/4room.jpg";
-import sterilImg from "../../images/5steril.jpg";
-import office1Img from "../../images/6office.jpg";
-import office2Img from "../../images/7office.jpg";
+import outside1Img from "../../components/images/1outside.png";
+import roomImg from "../../components/images/4room.jpg";
+import sterilImg from "../../components/images/5steril.jpg";
+import office1Img from "../../components/images/6office.jpg";
+import office2Img from "../../components/images/7office.jpg";
 import 'swiper/css'
 import 'swiper/css/navigation'
 import './gallery.scss'

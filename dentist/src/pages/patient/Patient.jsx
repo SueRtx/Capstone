@@ -1,6 +1,6 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
-import forms from '../../images/forms.pdf'
+import forms from '../../components/images/forms.pdf'
 import './patient.scss'
 
 const Patient = () => {
