@@ -21,12 +21,14 @@ A user for the website can view the dentist practice information that includes s
 
 #### Light Mode
 
-![Diagram](dentist/src/components/images/rm-homeSun.png)
+![Diagram](dentist/src/components/images/rm-homeSun.png)  
+  
 ![Diagram](dentist/src/components/images/rm-mapSun.png)
 
 #### Dark Mode
 
-![Diagram](dentist/src/components/images/rm-homeMoon.png)
+![Diagram](dentist/src/components/images/rm-homeMoon.png)  
+  
 ![Diagram](dentist/src/components/images/rm-mapMoon.png)
 
 ## Setup/Installation Requirements
