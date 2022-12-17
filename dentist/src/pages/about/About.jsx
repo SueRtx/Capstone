@@ -1,8 +1,8 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
 import './about.scss'
-import drImg from "../../components/images/drAhn.jpg";
-import philImg from "../../components/images/Philosophy.png";
+import drImg from "../../components/images/ab-drAhn.jpg";
+import philImg from "../../components/images/ab-Philosophy.png";
 
 const About = () => {
   return (

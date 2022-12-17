@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import headerImg from "../images/smile.jpg";
-import toothImg from "../images/tooth1.png";
+import headerImg from "../images/he-smile.jpg";
+import toothImg from "../images/he-tooth.png";
 import { BsFillCalendarFill, BsFillTelephoneFill } from 'react-icons/bs'
 import { FaTooth } from 'react-icons/fa'
 import { AiTwotoneMail } from 'react-icons/ai'

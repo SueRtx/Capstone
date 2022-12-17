@@ -1,9 +1,9 @@
 import React from 'react'
 import Slide from 'react-reveal/Slide'
-import careImg from "../../components/images/care2.png";
-import cleanImage from "../../components/images/clean.jpg";
-import chairImage from "../../components/images/dentistry.png";
-import whiteImage from "../../components/images/white.png";
+import careImg from "../../components/images/se-care2.png";
+import cleanImage from "../../components/images/se-clean.jpg";
+import chairImage from "../../components/images/se-dentistry.png";
+import whiteImage from "../../components/images/se-white.png";
 
 import './service.scss'
 
