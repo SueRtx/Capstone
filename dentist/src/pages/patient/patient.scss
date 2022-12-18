@@ -24,11 +24,11 @@
   display: block;
   font-size: 1.6rem;
   line-height: 2.2rem;
-  text-align: left;
+  text-align: lcenter;
   background-color: rgb(232, 232, 60);
-width: 52%;
-  margin: 3% 0% 0 33%;
-  padding: 20px 20px 20px 50px;
+width: 58%;
+  margin: 3% 0% 0 34%;
+  padding: 20px 20px 20px 20px;
 }
 
 .section-patient-description h3 {
@@ -36,16 +36,16 @@ width: 52%;
   font-size: 1.3rem;
   line-height: 2rem;
   color: var(--second-text-color);
-  width: 60%;
-  padding: 30px;
-  margin-left: 30%;
+  width: 65%;
+  padding: 20px;
+  margin-left: 32%;
   text-align: left;
 }
 
 .section-patient-description {
-  font-size: 1.3rem;
-  text-align: center;
   
+  text-align: center;
+  padding-bottom: 100px;
 }
 
 .submit-button {
@@ -54,25 +54,16 @@ width: 52%;
   height: 50px;
   max-width: 200px;
   line-height: 50px;
-  margin: 50px 0;
+  margin: 5px 0px 0px 150px;
   animation: fadeInAnimation 1s 1.8s backwards;
   white-space: nowrap;
-  background-color: rgb(251, 238, 217);
-  border: 2px solid#ef8a65;
-  border-radius: 0 15px 0 15px;
-  margin-left: 40%;
-  margin-top: -5px;
-}
-
-// submit button
-.submit-button {
-  margin-top: 5px;
   background-color: var(--bt-background);
-  border-radius: 0 15px 0 15px;
+  border: 2px solid var(--border-color);
   color: var(--primary-color);
-  font-weight: bold;
-  cursor: pointer;
   font-size: 1rem;
+  border-radius: 0 15px 0 15px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .submit-button:hover {

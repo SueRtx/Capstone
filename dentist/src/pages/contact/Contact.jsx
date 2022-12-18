@@ -151,7 +151,6 @@ const Contact = React.memo(() => {
                   value={validInpt.name}
                   onChange={handleChange}
                 />
-                <span className="switch__bg"></span>
                 <BsExclamationLg className="exclamation" />
                 <BsPatchCheckFill className="checkCircle" />
               </div>
@@ -166,7 +165,7 @@ const Contact = React.memo(() => {
                   value={validInpt.email}
                   onChange={handleChange}
                 />
-                <span className="switch__bg"></span>
+
                 <BsExclamationLg className="exclamation" />
                 <BsPatchCheckFill className="checkCircle" />
               </div>
@@ -184,7 +183,6 @@ const Contact = React.memo(() => {
                 value={validInpt.subject}
                 onChange={handleChange}
               />
-              <span className="switch__bg"></span>
               <BsExclamationLg className="exclamation" />
               <BsPatchCheckFill className="checkCircle" />
             </div>
@@ -201,7 +199,7 @@ const Contact = React.memo(() => {
                 value={validInpt.message}
                 onChange={handleChange}
               />
-              <span className="switch__bg"></span>
+              <span className="purple"></span>
               <BsExclamationLg className="exclamation" />
               <BsPatchCheckFill className="checkCircle" />
             </div>
@@ -210,8 +208,6 @@ const Contact = React.memo(() => {
           <Fade left>
             <button type="submit" className="contact-button submit-button">
               <div>
-                {/* <span className="bg switch__bg"></span>
-                <span className="base switch__border-color"></span> */}
                 <span className="text">
                   Send Message
                   <RiSendPlane2Fill className="message-deliver" />

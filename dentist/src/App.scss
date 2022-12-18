@@ -13,60 +13,52 @@
   --primary-bg: #ece4de;  //pg background
   --darker-bg: #efb392;  // lighter background box
   --lighter-bg: #f3d0bd;   //darker background box
-  --tooth-bg: #a04419;
-
-  --theme-wrapper-bg: #ea9161; //theme
-  --map-border-color:  #eda077; 
+  --tooth-bg: #efb392;
+  --map-bg:  #f3d0bd;
+  
+  --header-line: #ea9161; //header line
   --primary-text-color: #2d96ec; //blue text
   --second-text-color: #ea764c;  //orange text
-  // --primary-color: #338ed8;
-  --text-shadow-color: #021a2d; //
+  --third-text-color: #ef480b;
+  --text-shadow-color: #103553; 
 
   --bt-background: #afc4d8;//bt background
   --bt-hover: #f4af8a;//bt hover
   
   --border-color: #ea764c;
-  
+  --map-border-color:  #eda077; 
   --box-shadow: 0 0 15px 0px #0808087a;
-
-
-  --theme-wrapper-bg: #efa882;
-  // --light-bg: #504d4b;
- --anchor-color: #338ed8; 
-  // --hover-color: #8a4e18;
-
+  
+  --contact-box-underlLine: #338ed8; 
   --contact-autofillBox:#86bfee;
-   --primary-color: #1281db;
+  --primary-color: #1281db;
 }
 
 // dark mode colors
 .wrapper.dark-mode {
-  --primary-bg: #1f1e1d; //background
+  --primary-bg: #282624; //background
   --darker-bg: #2d2b2b;
-  --lighter-bg:#373331; //sidebar
-  --tooth-bg: rgb(71, 204, 230);
+  --lighter-bg:#242221; //sidebar
+  --lighter-bg:#3b3333; //sidebar
+  --tooth-bg: #c4b7b7;
+  --map-bg: #c4b7b7;
 
-  --theme-wrapper-bg: #36322f; 
-
-  --primary-text-color: #4086bf; //blue text
+  --header-line: #36322f; 
+  --primary-text-color: #235a86; //blue text
   --second-text-color: #6a6765; 
+  --third-text-color: #111315; 
   --text-shadow-color: #838688; //
 
-  --bt-background: #aac1d8;//bt background
-  --bt-hover: #5d5f61;//bt hover
+  --bt-background: #395876;//bt background
+  --bt-hover: #f4af8a;//bt hover
 
   --border-color: #96999b;
   --map-border-color: #2d96ec;
-  // --primary-color: #797878; //letter color
-  // --color-tem: #4486bc; //page on light up
-  // --second-primary-color: rgb(64, 108, 190);
-  // --anchor-color: #adabab;
 
-   --box-shadow: 0 0 15px 0px #0808084c;
-  // // --light-bg: #ddd;
---contact-box-shadow: rgb(71, 67, 67); //icon
- 
---contact-autofillBox:#86bfee;
+  --box-shadow: 0 0 15px 0px #0808084c;
+  --contact-box-underlLine: #adabab;
+  --contact-autofillBox:#86bfee;
+  --primary-color: #918b8b; //letter color
   // --hover-color: #fff;
 }
 

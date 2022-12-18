@@ -22,16 +22,12 @@ const Patient = () => {
 
           <Fade left>           
             <a
-              style={{ marginTop: '2rem' }}
+              style={{ margin: '-0.5rem 23rem' }}
               href={forms}
               download
-              className=" submit-button"
+              className="submit-button"
             >
-              <div>
-                <span className="bg switch__bg"></span>
-                <span className="base switch__border-color"></span>
-                <span className="text">Download forms</span>
-              </div>
+              <span className="text">Download forms</span>
             </a>
           </Fade>
         </article>
