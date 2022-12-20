@@ -20,7 +20,7 @@ const Header = () => {
 
           <h4><BsFillCalendarFill className="office-info"/> Mon - Thurs: 9:00 AM - 5:00 PM <FaTooth className="office-info"/> AVAILABLE FOR EMERGENCIES <AiTwotoneMail className="office-info"/>tillamookfamilydentistry@yahoo.com</h4>
 
-          {/* contact us */}
+          {/* contact us btn */}
           <Link to="/contact" className="contact-button-home">
             <div>
               <span className="bg bt-hover"></span>
@@ -31,7 +31,7 @@ const Header = () => {
 
           <img src={ headerImg } className="headerImg" alt="Smiling family" width='62%'/>
 
-          {/* tooth side box */}
+          {/* tooth img */}
           <div className='toothSideBox'>
             <img src={ toothImg } className="toothImg" alt="Dentist office  logo" width='100%' />
 

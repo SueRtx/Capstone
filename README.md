@@ -15,7 +15,7 @@
 * SCSS
 
 ## Description
-A user for the website can view the dentist practice information that includes slide show, map and services offered by doctor & hygienist. Users can also download patient forms and send email from the contact page.
+ A user can choose the  light or dark mode  to  view the website.  They are able to see  dental  practice information that includes slide show, map and services offered by doctor & hygienist. They can also download patient forms and send email from the contact page.
 
 ## Project Images
 
